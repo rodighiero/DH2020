@@ -66,7 +66,7 @@ Promise.all([
     initNodes()
     initTokens()
 
-    background()
+    // background()
     simulation()
     search()
 
@@ -74,7 +74,5 @@ Promise.all([
         background()
         s.pixi.resize()
     }
-
-    // }
 
 })

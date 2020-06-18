@@ -2,7 +2,7 @@ import * as PIXI from 'pixi.js'
 
 let stage
 
-const color = 0x8a8201
+const color = 0xBD4A41
 
 export function initContours() {
 
