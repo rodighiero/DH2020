@@ -16,13 +16,13 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 10 // Min. number of articles
-    authors = authors.reduce((array, author, i) => {
-        console.log('Filtering author #', i)
-        if (author.docs >= min)
-            array.push(author)
-        return array
-    }, [])
+    // const min = 10 // Min. number of articles
+    // authors = authors.reduce((array, author, i) => {
+    //     console.log('Filtering author #', i)
+    //     if (author.docs >= min)
+    //         array.push(author)
+    //     return array
+    // }, [])
 
     // Tokenizer
 
@@ -79,7 +79,7 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const max = 20
+    const max = 40
     authors.forEach((author, i) => {
         console.log('Reducing for author #', i)
         author.tokens = tokenFrequency.listTerms(i)
@@ -104,7 +104,7 @@ const analysis = authors => {
 
     pairs.forEach(pair => {
 
-        const min = 10
+        const min = 5
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = t1.map(t => t.term).filter(term => t2.map(t => t.term).includes(term))
@@ -149,45 +149,16 @@ const analysis = authors => {
 
     // Cleaning nodes without relations
 
-    const connectedNodes = links.reduce((array, link) => {
-        if (!array.includes(link.source)) array.push(link.source)
-        if (!array.includes(link.target)) array.push(link.target)
-        return array
-    }, [])
+    // const connectedNodes = links.reduce((array, link) => {
+    //     if (!array.includes(link.source)) array.push(link.source)
+    //     if (!array.includes(link.target)) array.push(link.target)
+    //     return array
+    // }, [])
 
-    nodes = nodes.filter(node => connectedNodes.includes(node.id))
+    // nodes = nodes.filter(node => connectedNodes.includes(node.id))
 
-    // Nationality
-
-    const csv = require('csv-parser')
-
-    fs.createReadStream('data/diaspora.csv')
-        .pipe(csv({ separator: '|' }))
-        .on('data', (row) => {
-            // console.log()
-            const name = row['#uid'].split('/')[1]
-            const nationality = row['ethnicity']
-            const node = nodes.find(node => node.name == name)
-            if (node) {
-                const nodesWithId = nodes.filter(n => n.peers.includes(node.id))
-                nodesWithId.forEach(node => {
-                    if (!node.nationalities) node.nationalities = {}
-                    if (node.nationalities[nationality])
-                        node.nationalities[nationality]++
-                    else
-                        node.nationalities[nationality] = 1
-
-                })
-            }
-        })
-        .on('end', () => {
-            console.log('CSV file successfully processed')
-            fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
-            fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
-        })
-
-    // Writing files
-
+    fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
+    fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
     fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
     fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
 

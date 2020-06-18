@@ -33,7 +33,7 @@ export function initTokens() {
     
     links.forEach(link => {
             const [key, value] = Object.entries(link.tokens)[0]
-            const scale = value * .0007
+            const scale = value * .002
             link.txt = new PIXI.BitmapText(key, tokenStyle)
             link.txt.scale.set(scale)
             link.txt.position.set(Infinity, Infinity)

@@ -13,7 +13,7 @@ const start = Date.now()
 // Reading data
 
 const results = []
-fs.createReadStream('./data/metadata.csv').pipe(csv())
+fs.createReadStream('./data/metadata_V3.csv').pipe(csv())
     .on('data', (data) => results.push(data))
     .on('end', () => parse(results))
 
@@ -25,11 +25,13 @@ const parse = (records) => {
 
     records = records.reduce((records, record) => {
 
-        record.authors = record.authors.split('; ')
+        record.authors = record[Object.keys(record)[0]]
 
+        record.authors = record.authors.split('; ')
+        
         // Filter
 
-        if (record.abstract.length > 3000) return records
+        // if (record.abstract.length > 3000) return records
         // if (record.authors.length > 10) return records
 
         // Clean authors
@@ -37,12 +39,13 @@ const parse = (records) => {
         record.authors = record.authors.reduce((authors, author) => {
             let string = author
             string = string.normalize('NFC')
+            string = string.replace(/ *\([^)]*\) */g, "") // Remove parethesis and content
             string = `${string.split(', ')[1]} ${string.split(', ')[0]}`
             string = string.trim()
             string = accents.remove(string)
             string = string.replace(/\s\s+/g, ' ') // Replace multiple spaces
             string = string.replace('undefined ', '') // Clean names already switched
-            if (string == 'undefined') return authors
+            // if (string == 'undefined') return authors
             // string = string.replace(/\./g, '') // remove dots
             authors.push(string)
             return authors
@@ -50,10 +53,11 @@ const parse = (records) => {
 
         // Filter
 
-        if (record.authors.length == 0) return records
+        // if (record.authors.length == 0) return records
 
         // Add
 
+        // console.log(record.authors)
         records.push(record)
         return records
 
@@ -67,23 +71,23 @@ const parse = (records) => {
 
             if ((i % 1000) === 0) console.log('Grouping record #', records.length - i)
 
-            const year = parseInt(record.publish_time.split('-')[0])
-            const text = `${record.title} ${record.abstract} `
+            // const year = parseInt(record.publish_time.split('-')[0])
+            const text = `${record.title_plain} ${record.keywords} ${record.abstract_plain} `
 
             const update = author => {
                 author.docs++
                 author.text += text
-                if (author.years[year]) (author.years[year])++
-                else (author.years[year]) = 1
+                // if (author.years[year]) (author.years[year])++
+                // else (author.years[year]) = 1
             }
 
             const add = name => {
                 authors.push({
                     name: name,
                     docs: 1,
-                    years: {
-                        [year]: 1
-                    },
+                    // years: {
+                    //     [year]: 1
+                    // },
                     peers: [],
                     variants: [],
                     text: text

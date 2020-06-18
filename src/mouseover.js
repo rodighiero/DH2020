@@ -30,24 +30,24 @@ export function mouseover(node) {
 
     // Nationality
 
-    focus.append('p').html(space)
-    focus.append('h3').html('Co-author Nationalities')
-    focus.append('p').html(line)
-    Object.entries(node.nationalities).sort().forEach(([key, value], i) => {
-        const blocks = block.repeat(value * 4)
-        focus.append('p').html(`${blocks} &nbsp; ${key}`)
-    })
+    // focus.append('p').html(space)
+    // focus.append('h3').html('Co-author Nationalities')
+    // focus.append('p').html(line)
+    // Object.entries(node.nationalities).sort().forEach(([key, value], i) => {
+    //     const blocks = block.repeat(value * 4)
+    //     focus.append('p').html(`${blocks} &nbsp; ${key}`)
+    // })
 
     // Years
 
-    focus.append('p').html(space)
-    focus.append('h3').html('Publication Years')
-    focus.append('p').html(line)
+    // focus.append('p').html(space)
+    // focus.append('h3').html('Publication Years')
+    // focus.append('p').html(line)
 
-    Object.entries(node.years).forEach(([key, value], i) => {
-        const blocks = block.repeat(value * 4)
-        focus.append('p').html(`${blocks} &nbsp; ${key}`)
-    })
+    // Object.entries(node.years).forEach(([key, value], i) => {
+    //     const blocks = block.repeat(value * 4)
+    //     focus.append('p').html(`${blocks} &nbsp; ${key}`)
+    // })
 
 }
 
