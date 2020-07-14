@@ -40,7 +40,7 @@ a {
 #title,
 #search,
 #warning {
-	background-color: rgba(0, 0, 0, .2);
+	background-color: rgba(0, 0, 0, .7);
 	position: absolute;
 	border: none;
 	padding: 10px;

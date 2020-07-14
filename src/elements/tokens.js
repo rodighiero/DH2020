@@ -1,20 +1,23 @@
 import * as PIXI from 'pixi.js'
+import * as WordCloud from 'wordcloud'
 
 let stage, min, max
 let links = []
 
-const color = {
-    on: 0x777777,
-    off: 0x777777,
+const body = document.getElementsByTagName('body')[0]
+
+const options = {
+    gridSize: 2,
+    weightFactor: 1,
+    fontFamily: 'Arial, sans-serif',
+    color: '#555',
+    backgroundColor: 'transparent',
+    rotateRatio: 0,
+    // ellipticity: 2,
+    // shape: 'diamond',
 }
 
-const tokenStyle = new PIXI.TextStyle({
-    font: '24px Arial',
-    fill: color.on,
-    align: 'center',
-})
-
-export function initTokens() {
+export default () => {
 
     const tokens = new PIXI.Graphics()
     tokens.interactiveChildren = false
@@ -24,27 +27,7 @@ export function initTokens() {
     min = Math.pow(s.distance * 2 - gap, 2)
     max = Math.pow(s.distance * 2 + gap, 2)
 
-    // Filter active tokens
-
-    const limit = .01
-    links = s.links.filter(l => l.value > limit)
-
-    // Create PIXI.Text
-    
-    links.forEach(link => {
-            const [key, value] = Object.entries(link.tokens)[0]
-            const scale = value * .02
-            link.txt = new PIXI.BitmapText(key, tokenStyle)
-            link.txt.scale.set(scale)
-            link.txt.position.set(Infinity, Infinity)
-            stage.addChild(link.txt)
-        })
-
-}
-
-export function drawTokens() {
-
-    links.forEach(link => {
+    s.links.forEach(link => {
 
         const deltaX = Math.abs(link.source.x - link.target.x)
         const deltaY = Math.abs(link.source.y - link.target.y)
@@ -52,18 +35,33 @@ export function drawTokens() {
         const txt = link.txt
 
         if (min < distance && distance < max) {
-            const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
-            const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
-            txt.position.set(x - txt.width / 2, y - txt.height / 2)
-        } else {
-            txt.position.set(Infinity, Infinity)
-        }
 
-        if (s.tokens.includes(link.txt.text)) {
-            link.txt.tint = color.on
-        }
-        else {
-            link.txt.tint = color.off
+            const canvas = document.createElement('canvas')
+            const context = canvas.getContext('2d');
+            canvas.width = 200
+            canvas.height = 200
+            let list = Object.entries(link.tokens)
+
+            options.list = list.slice(0, 5)
+            // options.list = list
+            WordCloud(canvas, options)
+
+            const spriteSize = 50
+
+            canvas.addEventListener('wordcloudstop', obj => {
+                const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
+                const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
+                // link.tokens.position = new PIXI.Point(x - spriteSize / 2, y - spriteSize / 2)
+                const canvas = obj.path[0]
+                let texture = PIXI.Texture.from(canvas)
+                let sprite = new PIXI.Sprite(texture)
+                sprite.width = spriteSize
+                sprite.height = spriteSize
+                sprite.position = new PIXI.Point(x - spriteSize / 2, y - spriteSize / 2)
+                link.tokens = sprite
+                tokens.addChild(link.tokens)
+            })
+
         }
 
     })

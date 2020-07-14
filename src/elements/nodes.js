@@ -13,20 +13,18 @@ const splitInTwo = string => {
     return [string, '']
 }
 
-let stage
-
 const color = {
-    on: 0xFFFFFF,
-    off: 0x777777,
+    on: 0xBD4A41,
+    off: 0xCCCCCC,
 }
 
-export function initNodes() {
+export default () => {
 
     const nodes = new PIXI.Graphics()
-    stage = s.pixi.addChild(nodes)
+    const stage = s.pixi.addChild(nodes)
 
     const nodeStyle = new PIXI.TextStyle({
-        font: '3px Arial',
+        font: '4px Arial',
         fill: color.on,
         align: 'center',
     })
@@ -37,70 +35,46 @@ export function initNodes() {
 
         // Circle
 
-        node.gpxCircle = new PIXI.Graphics()
-        node.gpxCircle.beginFill(0xFFFFFF, 1)
-        node.gpxCircle.drawCircle(0, 0, 1)
-        node.gpxCircle.endFill()
-        nodes.addChild(node.gpxCircle)
+        const size = node.docs
+
+        node.circle = new PIXI.Graphics()
+        node.circle.beginFill(0xFFFFFF, 1)
+        node.circle.drawCircle(0, 0, size)
+        node.circle.endFill()
+        node.circle.tint = color.off
+        node.circle.position = new PIXI.Point(node.x, node.y)
+        node.circle.interactive = true
+        node.circle.hitArea = new PIXI.Circle(0, 0, s.distance)
+        nodes.addChild(node.circle)
 
         // Label
 
-        // s.BitmapText = PIXI.BitmapText
-
         const [nA, nB] = splitInTwo(node.name)
-        // .registerFont(s.arialXML, s.arialPNG)
-        node.gpxText = new PIXI.BitmapText(`${nA}\n${nB}`, nodeStyle)
-        // node.gpxText = new PIXI.BitmapText()
-        nodes.addChild(node.gpxText)
-
-        // Interaction
-
-        node.gpxCircle.interactive = true
-        node.gpxCircle.hitArea = new PIXI.Circle(0, 0, s.distance)
+        node.text = new PIXI.BitmapText(`${nA}\n${nB}`, nodeStyle)
+        node.text.tint = color.off
+        node.text.position.set(node.x - node.text.width / 2, node.y + size + 2)
+        nodes.addChild(node.text)
 
         // Set information panel & set on circles
 
-        node.gpxCircle.mouseover = mouseData => {
+        node.circle.mouseover = mouseData => {
             mouseover(node)
-            const include = s.nodes.filter(peer => node.peers.includes(peer.id))
-            include.forEach(node => node.visibility = true)
-            drawNodes()
-            drawTokens()
+            s.nodes.filter(peer => node.peers.includes(peer.id))
+                .forEach(node => {
+                    node.circle.tint = color.on
+                    node.text.tint = color.on
+                })
         }
 
         // Clean information panel & set off circles
 
-        node.gpxCircle.mouseout = mouseData => {
+        node.circle.mouseout = mouseData => {
             mouseout(node)
-            s.nodes.forEach(node => node.visibility = false)
-            drawNodes()
-            drawTokens()
-        }
-
-    })
-
-}
-
-const infinity = new PIXI.Point(Infinity, Infinity)
-
-export function drawNodes() {
-
-    stage.clear()
-
-    s.nodes.forEach(node => {
-
-        const { x, y, gpxCircle, gpxText, visibility } = node
-
-        gpxCircle.position = new PIXI.Point(x, y)
-        gpxText.position.set(x - gpxText.width / 2, y + 3)
-
-        if (visibility) {
-            gpxCircle.tint = color.on
-            gpxText.tint = color.on
-        }
-        else {
-            gpxCircle.tint = color.off
-            gpxText.tint = color.off
+            s.nodes
+                .forEach(node => {
+                    node.circle.tint = color.off
+                    node.text.tint = color.off
+                })
         }
 
     })

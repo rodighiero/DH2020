@@ -24,30 +24,9 @@ export function mouseover(node) {
     focus.append('h3').html('Tokens by tf-idf')
     focus.append('p').html(line)
     node.tokens.slice(0, 10).forEach(token => {
-        const blocks = block.repeat(token.tfidf / 10)
+        const blocks = block.repeat(token.tfidf)
         focus.append('p').html(`${blocks} &nbsp; ${token.term}`)
     })
-
-    // Nationality
-
-    // focus.append('p').html(space)
-    // focus.append('h3').html('Co-author Nationalities')
-    // focus.append('p').html(line)
-    // Object.entries(node.nationalities).sort().forEach(([key, value], i) => {
-    //     const blocks = block.repeat(value * 4)
-    //     focus.append('p').html(`${blocks} &nbsp; ${key}`)
-    // })
-
-    // Years
-
-    // focus.append('p').html(space)
-    // focus.append('h3').html('Publication Years')
-    // focus.append('p').html(line)
-
-    // Object.entries(node.years).forEach(([key, value], i) => {
-    //     const blocks = block.repeat(value * 4)
-    //     focus.append('p').html(`${blocks} &nbsp; ${key}`)
-    // })
 
 }
 

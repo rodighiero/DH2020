@@ -3,6 +3,13 @@ const combinatorics = require('js-combinatorics')
 const natural = require('natural')
 const sw = require('stopword')
 
+const reuse = require('d3-force-reuse')
+const d3 = require('d3')
+
+// Time counter
+
+const start = Date.now()
+
 // Load JSON
 
 fs.readFile(__dirname + '/data/authors.json', (err, json) => {
@@ -14,16 +21,6 @@ fs.readFile(__dirname + '/data/authors.json', (err, json) => {
 
 const analysis = authors => {
 
-    // Reduce authors
-
-    // const min = 10 // Min. number of articles
-    // authors = authors.reduce((array, author, i) => {
-    //     console.log('Filtering author #', i)
-    //     if (author.docs >= min)
-    //         array.push(author)
-    //     return array
-    // }, [])
-
     // Tokenizer
 
     function titleCase(str) {
@@ -34,7 +31,7 @@ const analysis = authors => {
             return word.replace(word[0], word[0].toUpperCase())
         }).join(' ')
     }
-    // titleCase("I'm a little tea pot");
+    // titleCase('I'm a little tea pot');
 
     const tokenizer = new natural.WordTokenizer()
     // const tokenizer = new natural.TreebankWordTokenizer()
@@ -46,11 +43,11 @@ const analysis = authors => {
     // Singularize
 
     const inflector = new natural.NounInflector()
-    const safeList = ['sars', 'trans', 'recsars', 'facs', 'mers', 'aids']
+    const safeList = ['']
     authors.forEach((author, i) => {
         console.log('Singularizing author #', i)
         author.tokens = author.tokens.map(t => {
-            if ((safeList.includes(t) && t.length > 3) || /us$/.test(t) || /is$/.test(t)) {
+            if ((safeList.includes(t) && t.length > 4) || /us$/.test(t) || /is$/.test(t)) {
                 return t
             } else {
                 return inflector.singularize(t)
@@ -60,12 +57,12 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'virus', 'coronavirus']
+    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient']
     authors.forEach((author, i) => {
         console.log('Cleaning author #', i)
         author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))
             // .map(token => token.replace(token[0], token[0].toUpperCase()))
-            .filter(token => token.length > 2)
+            .filter(token => token.length > 4)
             .filter(token => !parseInt(token))
     })
 
@@ -104,13 +101,13 @@ const analysis = authors => {
 
     pairs.forEach(pair => {
 
-        const min = 5
+        const min = 7
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = t1.map(t => t.term).filter(term => t2.map(t => t.term).includes(term))
         i = i - 1
 
-        if (tokens.length <= min)
+        if (tokens.length <= min - 1)
             return
 
         if (tokens.length > maxCommonTokens)
@@ -147,28 +144,61 @@ const analysis = authors => {
     const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, Infinity)
     links.forEach(link => link.value = link.value / maxLinkValue)
 
-    // Cleaning nodes without relations
+    // Simulation
 
-    // const connectedNodes = links.reduce((array, link) => {
-    //     if (!array.includes(link.source)) array.push(link.source)
-    //     if (!array.includes(link.target)) array.push(link.target)
-    //     return array
-    // }, [])
+    console.log('\nSimulation starts\n')
 
-    // nodes = nodes.filter(node => connectedNodes.includes(node.id))
+    const simulation = d3.forceSimulation()
 
-    fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
-    fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
-    fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
-    fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
+    simulation
+        .force('charge', reuse.forceManyBodyReuse()
+            .strength(10)
+        )
+        .force('collide', d3.forceCollide()
+            .radius(40)
+            .strength(.5)
+            .iterations(5)
+        )
+        .force('center', d3.forceCenter(0, 0))
 
-    // Final report
+    simulation
+        .nodes(nodes)
+        .force('link', d3.forceLink()
+            .id(d => d.id)
+            .strength(d => d.value)
+        )
+        .force('link').links(links)
 
-    const format = x => JSON.stringify(x).length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
-    console.log(`     nodes.json : ${format(nodes)}kb for ${nodes.length} authors`)
-    console.log(`     links.json : ${format(links)}kb for ${links.length} links`)
-    console.log(`   maxLinkValue : ${maxLinkValue}`)
-    console.log(`   minLinkValue : ${minLinkValue}`)
-    console.log(`maxCommonTokens : ${maxCommonTokens}`)
+    simulation
+        .on('end', () => {
+            writing(nodes, links)
+        })
 
+
+    const writing = (nodes, links) => {
+
+        // Writing files
+
+        fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
+        fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
+        fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
+        fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
+
+        // Final report
+
+        const format = x => JSON.stringify(x).length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+        console.log('\n')
+        console.log(`     nodes.json : ${format(nodes)}kb for ${nodes.length} authors`)
+        console.log(`     links.json : ${format(links)}kb for ${links.length} links`)
+        console.log(`   maxLinkValue : ${maxLinkValue}`)
+        console.log(`   minLinkValue : ${minLinkValue}`)
+        console.log(`maxCommonTokens : ${maxCommonTokens}`)
+
+        // Time end
+
+        const end = Date.now()
+        const d = new Date(end - start)
+        console.log(`\nTime computed ${d.getUTCHours()}h ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s ${d.getUTCMilliseconds()}ms`)
+
+    }
 }
