@@ -4,7 +4,7 @@ let stage, min, max
 let links = []
 
 const color = {
-    on: 0xFFFFFF,
+    on: 0x777777,
     off: 0x777777,
 }
 
@@ -33,7 +33,7 @@ export function initTokens() {
     
     links.forEach(link => {
             const [key, value] = Object.entries(link.tokens)[0]
-            const scale = value * .002
+            const scale = value * .02
             link.txt = new PIXI.BitmapText(key, tokenStyle)
             link.txt.scale.set(scale)
             link.txt.position.set(Infinity, Infinity)

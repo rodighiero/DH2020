@@ -13,7 +13,7 @@ const start = Date.now()
 // Reading data
 
 const results = []
-fs.createReadStream('./data/metadata_V3.csv').pipe(csv())
+fs.createReadStream('./data/metadata_V4.csv').pipe(csv())
     .on('data', (data) => results.push(data))
     .on('end', () => parse(results))
 
