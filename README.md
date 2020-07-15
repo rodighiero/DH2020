@@ -8,4 +8,4 @@ The goal is the creation of an instrument in which the author can immediately re
 
 The cartography of 2020 was made possible by the outstanding contribution of May Ning, who brilliantly took care of the conference dataset, and Constance Crompton, who enthusiastically supported the idea to create a visual representation of the DH2020.
 
-More information about the visual method on the article titled ("Mapping as a Contemporary Instrument for Orientation in Conferences")[https://doi.org/10.5281/zenodo.3611341]
+More information about the visual method on the article titled ["Mapping as a Contemporary Instrument for Orientation in Conferences"](https://doi.org/10.5281/zenodo.3611341) by Chloe Moon and Dario Rodighiero.
