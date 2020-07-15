@@ -6,7 +6,7 @@ const color = 0xFFFFFF
 export default () => {
 
     const contours = new PIXI.Graphics()
-    contours.alpha = .1
+    contours.alpha = .05
     contours.interactiveChildren = false
     const stage = s.pixi.addChild(contours)
 
@@ -23,14 +23,14 @@ export default () => {
         .weight(d => d.relevancy)
         .size([width, height])
         .cellSize(10)
-        .bandwidth(50)
+        .bandwidth(70)
         .thresholds(15)
         (s.nodes)
 
     density.forEach(d => d.coordinates = d.coordinates
         .map(d => d.map(d => d.map(d => [d[0] + x, d[1] + y]))))
 
-    const contourWidth = 10
+    const contourWidth = 5
     const step = contourWidth / density.length
     let count = 1
 

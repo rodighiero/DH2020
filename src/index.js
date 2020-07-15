@@ -25,6 +25,7 @@ import fps from './elements/fps.js'
 
 import background from './elements/background'
 import contours from './elements/contours.js'
+import keywords from './elements/keywords.js'
 import links from './elements/links.js'
 import nodes from './elements/nodes.js'
 import tokens from './elements/tokens.js'
@@ -66,6 +67,7 @@ Promise.all([
     contours()
     tokens()
     nodes()
+    keywords()
 
     search()
 

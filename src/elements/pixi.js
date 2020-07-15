@@ -35,20 +35,32 @@ export default () => {
 
     // Activate plugins
 
-    const zoom = .3
+    const zoomMin = .3
+    const zoomMax = 1
+    const transparencyScale = d3.scaleLinear()
+        .domain([zoomMin, zoomMax])
+        .range([1, 0])
 
     viewport
         .drag()
         .pinch()
         .wheel()
         .decelerate()
-        .clampZoom({ minScale: .1, maxScale: 5 })
-        .setTransform( window.innerWidth / 2, window.innerHeight / 2, zoom, zoom)
-        
+        .clampZoom({ minScale: zoomMin, zoomMax: zoomMax })
+        .setTransform(window.innerWidth / 2, window.innerHeight / 2, zoomMin, zoomMin)
+
+    viewport.on('zoomed', e => {
+        // console.log(e.viewport.children[2])
+        // console.log(e.viewport.lastViewport.scaleX)
+        const alpha = transparencyScale(e.viewport.lastViewport.scaleX)
+        console.log(alpha)
+        e.viewport.children[4].alpha = alpha
+    })
+
     // Prevent pinch gesture in Chrome
 
     window.addEventListener('wheel', e => {
         e.preventDefault()
     }, { passive: false })
-        
+
 }

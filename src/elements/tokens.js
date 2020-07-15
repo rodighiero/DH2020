@@ -8,12 +8,12 @@ const body = document.getElementsByTagName('body')[0]
 
 const options = {
     gridSize: 2,
-    weightFactor: 1,
+    weightFactor: 1.5,
     fontFamily: 'Arial, sans-serif',
-    color: '#555',
+    color: '#666',
     backgroundColor: 'transparent',
     rotateRatio: 0,
-    // ellipticity: 2,
+    ellipticity: 3,
     // shape: 'diamond',
 }
 
@@ -51,7 +51,7 @@ export default () => {
             canvas.addEventListener('wordcloudstop', obj => {
                 const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
                 const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
-                // link.tokens.position = new PIXI.Point(x - spriteSize / 2, y - spriteSize / 2)
+
                 const canvas = obj.path[0]
                 let texture = PIXI.Texture.from(canvas)
                 let sprite = new PIXI.Sprite(texture)
