@@ -12,10 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/rodighiero/DH2020.git"
   },
-  "author": "Dario Rodighiero",
+  "author": "Dario Rodighiero, May Ning, Constance Crompton",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
+    "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",

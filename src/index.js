@@ -12,6 +12,7 @@ import * as PIXI from 'pixi.js'
 
 import nodesJSON from './data/nodes.json'
 import linksJSON from './data/links.json'
+import tripletsJSON from './data/triplets.json'
 import arialXML from './arial.xml'
 import arialDataPNG from './arial.png'
 
@@ -46,14 +47,17 @@ window.s = {
 Promise.all([
     d3.json(nodesJSON),
     d3.json(linksJSON),
+    d3.json(tripletsJSON),
     d3.xml(arialXML)
 
-]).then(([nodesData, linksData, arialXML]) => {
+]).then(([nodesData, linksData, tripletsData, arialXML]) => {
 
     s.links = linksData
     s.nodes = nodesData
+    s.triplets = tripletsData
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
+    console.log('triplets', s.triplets.length)
 
     pixi()
 
