@@ -5,9 +5,9 @@ let links = []
 
 const tokenStyle = new PIXI.TextStyle({
     font: '24px Arial',
-    fill: 0xCCCCCC,
     align: 'center',
 })
+const color = 0xCCCCCC
 
 export default () => {
 
@@ -18,11 +18,6 @@ export default () => {
     const gap = 2
     min = Math.pow(s.distance * 2 - gap, 2)
     max = Math.pow(s.distance * 2 + gap, 2)
-
-    // Filter active tokens
-
-    // const limit = .01
-    // links = s.links.filter(l => l.value > limit)
 
     // Create PIXI.Text
 
@@ -40,8 +35,11 @@ export default () => {
             const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
 
             link.txt = new PIXI.BitmapText(key, tokenStyle)
+            link.txt.tint = color
             link.txt.scale.set(scale)
             link.txt.position.set(x - link.txt.width / 2, y - link.txt.height / 2)
+
+            // Check overlapping
 
             let overlapping = false
 

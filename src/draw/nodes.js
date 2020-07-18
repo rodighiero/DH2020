@@ -1,8 +1,6 @@
 import * as PIXI from 'pixi.js'
 
-import { mouseover, mouseout } from '../mouseover'
-import { drawTokens } from './tokens'
-// import links from '../arial.fnt'
+import { mouseover, mouseout } from '../elements/mouseover'
 
 const splitInTwo = string => {
     const middle = Math.round(string.length / 2)

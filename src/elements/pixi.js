@@ -36,10 +36,7 @@ export default () => {
     // Activate plugins
 
     const zoomMin = .3
-    const zoomMax = 1
-    const transparencyScale = d3.scaleLinear()
-        .domain([zoomMin, zoomMax])
-        .range([1, 0])
+    const zoomMax = 5
 
     viewport
         .drag()
@@ -49,12 +46,23 @@ export default () => {
         .clampZoom({ minScale: zoomMin, zoomMax: zoomMax })
         .setTransform(window.innerWidth / 2, window.innerHeight / 2, zoomMin, zoomMin)
 
+    // Transparency on zoom
+
+    const keywords = d3.scaleLinear()
+        .domain([zoomMin, 2]).range([1, 0])
+
+    const wordcloud = d3.scaleLinear()
+        .domain([zoomMin, zoomMax]).range([0, 1])
+
+    const contours = d3.scaleLinear()
+        .domain([zoomMin, 2]).range([1, 0])
+
     viewport.on('zoomed', e => {
-        // console.log(e.viewport.children[2])
-        // console.log(e.viewport.lastViewport.scaleX)
-        const alpha = transparencyScale(e.viewport.lastViewport.scaleX)
-        console.log(alpha)
-        e.viewport.children[4].alpha = alpha
+        const scale = e.viewport.lastViewport.scaleX
+        // 0. Links and 3. Nodes
+        e.viewport.children[1].alpha = contours(scale)
+        e.viewport.children[2].alpha = keywords(scale)
+        e.viewport.children[4].alpha = wordcloud(scale)
     })
 
     // Prevent pinch gesture in Chrome

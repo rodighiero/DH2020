@@ -73,6 +73,14 @@ export default () => {
                 (window.innerHeight) / 2 - y * scale,
                 scale, scale)
 
+            const zoomMin = .3
+            const zoomMax = 5
+            const wordcloud = d3.scaleLinear().domain([zoomMin, zoomMax]).range([0, 1])
+            s.pixi.children[1].alpha = 0
+            s.pixi.children[2].alpha = 0
+            s.pixi.children[4].alpha = wordcloud(scale)
+
+
             // const duration = 3000
 
             // const zoomin = () => {

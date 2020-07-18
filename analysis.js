@@ -43,7 +43,7 @@ const analysis = authors => {
     // Singularize
 
     const inflector = new natural.NounInflector()
-    const safeList = ['']
+    const safeList = ['humanities', 'corpus', 'charles']
     authors.forEach((author, i) => {
         console.log('Singularizing author #', i)
         author.tokens = author.tokens.map(t => {
@@ -57,7 +57,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'undefined']
+    const stopWords = ['not', 'undefined', 'whereislatinxdh', 'reutilizaci', 'large', 'study', 'result', 'blico', 'anlysis', 'connected', 'centered', 'research', 'digital', 'humanities', 'project']
     authors.forEach((author, i) => {
         console.log('Cleaning author #', i)
         author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))

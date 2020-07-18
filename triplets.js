@@ -80,7 +80,7 @@ const analysis = nodes => {
 
 
 
-            obj.tokens = Object.entries(tokens).sort(function(a, b) { return a[1] - b[1] })
+            obj.tokens = Object.entries(tokens).sort(function(a, b) { return b[1] - a[1]  })
 
             result.push(obj)
 

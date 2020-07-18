@@ -10,12 +10,13 @@ const options = {
     color: '#666',
     backgroundColor: 'transparent',
     rotateRatio: 0,
-    minSize: 12,
+    // minSize: 12,
 }
 
 export default () => {
 
     const graphic = new PIXI.Graphics()
+    graphic.alpha = 0
     graphic.interactiveChildren = false
     const stage = s.pixi.addChild(graphic)
 
@@ -31,7 +32,6 @@ export default () => {
         canvas.height = 200
 
         options.list = triplet.tokens.slice(0, 3)
-        const position = triplet.position
 
         WordCloud(canvas, options)
         
@@ -50,5 +50,7 @@ export default () => {
         })
 
     })
+
+    console.log('Loaded')
 
 }

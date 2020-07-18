@@ -5,8 +5,6 @@ export default () => {
     links.interactiveChildren = false
     const stage = s.pixi.addChild(links)
 
-    stage.alpha = .2
-
     s.links.forEach(({ source, target, value }) => {
 
         stage.lineStyle(value, 0x444444)

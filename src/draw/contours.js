@@ -1,12 +1,15 @@
 import * as PIXI from 'pixi.js'
 
-// const color = 0xBD4A41
-const color = 0xFFFFFF
+const color = 0xBD4A41
+// const color = 0xFFFFFF
+const contourWidth = 3
+const cellSize = 15
+const bandwidth = 50
+const thresholds = 20
 
 export default () => {
 
     const contours = new PIXI.Graphics()
-    contours.alpha = .05
     contours.interactiveChildren = false
     const stage = s.pixi.addChild(contours)
 
@@ -22,15 +25,15 @@ export default () => {
         .y(d => d.y - y)
         .weight(d => d.relevancy)
         .size([width, height])
-        .cellSize(10)
-        .bandwidth(70)
-        .thresholds(15)
+        .cellSize(cellSize)
+        .bandwidth(bandwidth)
+        .thresholds(thresholds)
         (s.nodes)
 
     density.forEach(d => d.coordinates = d.coordinates
         .map(d => d.map(d => d.map(d => [d[0] + x, d[1] + y]))))
 
-    const contourWidth = 5
+
     const step = contourWidth / density.length
     let count = 1
 
