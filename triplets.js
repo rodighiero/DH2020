@@ -28,7 +28,7 @@ const analysis = nodes => {
     console.log('triplets', triplets.length)
 
     const distance = 40
-    const gap = 5
+    const gap = 30
     min = Math.pow(distance * 2 - gap, 2)
     max = Math.pow(distance * 2 + gap, 2)
 

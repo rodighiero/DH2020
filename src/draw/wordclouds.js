@@ -32,7 +32,7 @@ export default () => {
         tokens.forEach( ([key, value], i) => {
 
             // const scale = Math.log(value) * .07
-            const scale = 1
+            const scale = 1.4
             const text = new PIXI.BitmapText(key, tokenStyle)
             text.tint = color
             text.scale.set(scale)

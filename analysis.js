@@ -76,7 +76,7 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const max = 40
+    const max = 60
     authors.forEach((author, i) => {
         console.log('Reducing for author #', i)
         author.tokens = tokenFrequency.listTerms(i)
@@ -101,7 +101,7 @@ const analysis = authors => {
 
     pairs.forEach(pair => {
 
-        const min = 7
+        const min = 5
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = t1.map(t => t.term).filter(term => t2.map(t => t.term).includes(term))
