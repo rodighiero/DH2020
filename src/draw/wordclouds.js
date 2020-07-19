@@ -1,5 +1,4 @@
 import * as PIXI from 'pixi.js'
-import * as WordCloud from 'wordcloud'
 
 const body = document.getElementsByTagName('body')[0]
 

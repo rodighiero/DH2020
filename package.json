@@ -40,7 +40,6 @@
     "fps": "0.0.3",
     "normalize.css": "^8.0.1",
     "pixi-viewport": "^4.12.1",
-    "pixi.js": "5.2.4",
-    "wordcloud": "^1.1.1"
+    "pixi.js": "5.2.4"
   }
 }
