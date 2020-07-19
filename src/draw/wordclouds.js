@@ -3,15 +3,11 @@ import * as WordCloud from 'wordcloud'
 
 const body = document.getElementsByTagName('body')[0]
 
-const options = {
-    gridSize: 2,
-    weightFactor: 4,
-    fontFamily: 'Arial, sans-serif',
-    color: '#666',
-    backgroundColor: 'transparent',
-    rotateRatio: 0,
-    // minSize: 12,
-}
+const tokenStyle = new PIXI.TextStyle({
+    font: '4px Arial',
+    align: 'center',
+})
+const color = 0x666666
 
 export default () => {
 
@@ -27,30 +23,28 @@ export default () => {
 
     s.triplets.forEach(triplet => {
 
-        const canvas = document.createElement('canvas')
-        canvas.width = 200
-        canvas.height = 200
+        const items = 3
+        const tokens = triplet.tokens.slice(0, items)
+        const x = triplet.position[0]
+        const y = triplet.position[1]
 
-        options.list = triplet.tokens.slice(0, 3)
+        let counter = 0
 
-        WordCloud(canvas, options)
-        
-        canvas.addEventListener('wordcloudstop', obj => {
+        tokens.forEach( ([key, value], i) => {
 
-            const x = triplet.position[0]
-            const y = triplet.position[1]
-
-            const canvas = obj.path[0]
-            let texture = PIXI.Texture.from(canvas)
-            let sprite = new PIXI.Sprite(texture)
-            sprite.width = spriteSize
-            sprite.height = spriteSize
-            sprite.position = new PIXI.Point(x - spriteSize / 2, y - spriteSize / 2)
-            stage.addChild(sprite)
+            // const scale = Math.log(value) * .07
+            const scale = 1
+            const text = new PIXI.BitmapText(key, tokenStyle)
+            text.tint = color
+            text.scale.set(scale)
+            text.position.set(x - text.width / 2, y - text.height / 2 + i * 6 - 3)
+            stage.addChild(text)
+            
         })
 
-    })
 
-    console.log('Loaded')
+
+        
+    })
 
 }
