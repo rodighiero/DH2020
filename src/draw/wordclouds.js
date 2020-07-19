@@ -6,7 +6,7 @@ const tokenStyle = new PIXI.TextStyle({
     font: '4px Arial',
     align: 'center',
 })
-const color = 0x666666
+const color = 0x636d60
 
 export default () => {
 

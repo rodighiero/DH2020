@@ -13,7 +13,7 @@ const splitInTwo = string => {
 
 const color = {
     on: 0xBD4A41,
-    off: 0xCCCCCC,
+    off: 0xc7d1c2,
 }
 
 export default () => {
