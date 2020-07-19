@@ -16,7 +16,7 @@
 
 body,
 html {
-	color: rgb(255, 255, 255);
+	color: #c7d1c2;
 	overflow: hidden;
 	margin: 0;
 }
@@ -29,7 +29,7 @@ canvas {
 }
 
 a {
-	color: rgb(255, 255, 255);
+	color: #c7d1c2;
 }
 
 /******************************************************************************
@@ -68,14 +68,26 @@ a {
 	bottom: 0;
 }
 
-h1 {
+input {
 	font-size: 100%;
 	margin: 5px 0;
+	font-weight: normal;
+}
+
+li {
+	font-size: 70%;
+	margin: 5px 0;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 100%;
+	margin: 10px 0;
 }
 
 h2 {
 	font-size: 70%;
-	margin: 5px 0;
+	margin: 10px 0;
 	font-weight: normal;
 }
 
@@ -91,14 +103,14 @@ p {
 }
 
 .block {
-	background-color: white;
+	background-color: #c7d1c2;
 	height: 3px;
 	width: 1px;
 	display: inline-block;
 }
 
 .inverted {
-	background-color: white;
+	background-color: #c7d1c2;
 	color: black;
 	white-space: nowrap;
 }

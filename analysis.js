@@ -76,11 +76,11 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const max = 60
+    // const max = 60
     authors.forEach((author, i) => {
         console.log('Reducing for author #', i)
         author.tokens = tokenFrequency.listTerms(i)
-            .slice(0, max)
+            // .slice(0, max)
     })
 
     // Set nodes

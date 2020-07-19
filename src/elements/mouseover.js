@@ -23,7 +23,7 @@ export function mouseover(node) {
     focus.append('p').html(space)
     focus.append('h3').html('Tokens by tf-idf')
     focus.append('p').html(line)
-    node.tokens.slice(0, 10).forEach(token => {
+    node.tokens.forEach(token => {
         const blocks = block.repeat(token.tfidf)
         focus.append('p').html(`${blocks} &nbsp; ${token.term}`)
     })
