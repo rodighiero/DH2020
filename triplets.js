@@ -21,11 +21,11 @@ fs.readFile(__dirname + '/data/nodes.json', (err, json) => {
 
 const analysis = nodes => {
 
-    console.log(nodes.length)
-
+    
     const triplets = combinatorics.bigCombination(nodes, 3)
-
-    console.log(triplets.length)
+    
+    console.log('nodes', nodes.length)
+    console.log('triplets', triplets.length)
 
     const distance = 40
     const gap = 5
@@ -49,8 +49,23 @@ const analysis = nodes => {
         const t1 = triplet[0]
         const t2 = triplet[1]
         const t3 = triplet[2]
+        const close = proximity(t1, t2) && proximity(t2, t3) && proximity(t3, t1)
 
-        if (proximity(t1, t2) && proximity(t2, t3) && proximity(t3, t1)) {
+        const l1 = t1.tokens.reduce((array, token) => {
+            array.push(token.term)
+            return array
+        }, [])
+        const l2 = t2.tokens.reduce((array, token) => {
+            array.push(token.term)
+            return array
+        }, [])
+        const l3 = t3.tokens.reduce((array, token) => {
+            array.push(token.term)
+            return array
+        }, [])
+        const list = l1.filter(t => l2.includes(t)).filter(t => l3.includes(t))
+
+        if (close && (list.length > 0) ) {
 
             console.log(counter)
 
@@ -58,37 +73,15 @@ const analysis = nodes => {
 
             const x = (t1.x + t2.x + t3.x) / 3
             const y = (t1.y + t2.y + t3.y) / 3
-
-            const position = [x, y]
             
+            let tokens = []
 
-            
-
-            // const tokens = t1.map(t => t.term).filter(term => t2.map(t => t.term).includes(term))
-
-
-
-            let tokens = t1.tokens.reduce((tokens, token) => {
-                tokens[token.term] = token.tfidf
-                return tokens
-            }, {})
-
-            t2.tokens.forEach(t => {
-                if (tokens[t.term]) tokens[t.term] += t.tfidf
-                else tokens[t.term] = t.tfidf
-            })
-
-            t3.tokens.forEach(t => {
-                if (tokens[t.term]) tokens[t.term] += t.tfidf
-                else tokens[t.term] = t.tfidf
+            list.forEach(token => {
+                tokens.push([token, t1.tokens[token] + t2.tokens[token] + t3.tokens[token]])
+                
             })
             
-            tokens = Object.entries(tokens)
-            tokens.forEach( token => token[1] = token[1] / 3)
-            tokens.sort(function (a, b) { return b[1] - a[1] })
-            
-            
-            obj.position = position
+            obj.position = [x, y]
             obj.tokens = tokens
             result.push(obj)
 

@@ -15,7 +15,16 @@ export default () => {
     const autoCompletejs = new autoComplete({
         data: {
             src: async () => {
-                return s.nodes
+                return s.nodes.reduce((array, { name, x, y }) => {
+
+                    array.push({
+                        name: name,
+                        x: x,
+                        y: y
+                    })
+            
+                    return array
+                }, [])
             },
             key: ["name"],
             // key: ["food", "cities", "animals"],
