@@ -52,7 +52,7 @@ export default () => {
         .domain([zoomMin, 2]).range([1, 0])
 
     const wordcloud = d3.scaleLinear()
-        .domain([zoomMin, zoomMax]).range([0, 1])
+        .domain([zoomMin, 2]).range([0, 1])
 
     const contours = d3.scaleLinear()
         .domain([zoomMin, 2]).range([1, 0])

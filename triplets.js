@@ -28,7 +28,7 @@ const analysis = nodes => {
     console.log(triplets.length)
 
     const distance = 40
-    const gap = 2
+    const gap = 5
     min = Math.pow(distance * 2 - gap, 2)
     max = Math.pow(distance * 2 + gap, 2)
 
@@ -60,14 +60,19 @@ const analysis = nodes => {
             const y = (t1.y + t2.y + t3.y) / 3
 
             const position = [x, y]
+            
 
-            obj.position = position
+            
 
-            const tokens = t1.tokens.reduce((tokens, token) => {
+            // const tokens = t1.map(t => t.term).filter(term => t2.map(t => t.term).includes(term))
+
+
+
+            let tokens = t1.tokens.reduce((tokens, token) => {
                 tokens[token.term] = token.tfidf
                 return tokens
-            }, { })
-            
+            }, {})
+
             t2.tokens.forEach(t => {
                 if (tokens[t.term]) tokens[t.term] += t.tfidf
                 else tokens[t.term] = t.tfidf
@@ -77,11 +82,14 @@ const analysis = nodes => {
                 if (tokens[t.term]) tokens[t.term] += t.tfidf
                 else tokens[t.term] = t.tfidf
             })
-
-
-
-            obj.tokens = Object.entries(tokens).sort(function(a, b) { return b[1] - a[1]  })
-
+            
+            tokens = Object.entries(tokens)
+            tokens.forEach( token => token[1] = token[1] / 3)
+            tokens.sort(function (a, b) { return b[1] - a[1] })
+            
+            
+            obj.position = position
+            obj.tokens = tokens
             result.push(obj)
 
         }
