@@ -57,7 +57,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'undefined', 'whereislatinxdh', 'reutilizaci', 'large', 'study', 'result', 'blico', 'anlysis', 'connected', 'centered', 'research', 'digital', 'humanities', 'project']
+    const stopWords = ['not', 'undefined', 'whereislatinxdh', 'reutilizaci', 'large', 'study', 'result', 'blico', 'anlysis', 'connected', 'centered', 'research', 'digital', 'humanities', 'project', 'scale', 'distant', 'theory', 'search', 'applied', 'build', 'labeled', 'paper', 'smooth', 'public', 'group', 'among', 'static', 'feature', 'online']
     authors.forEach((author, i) => {
         console.log('Cleaning author #', i)
         author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))

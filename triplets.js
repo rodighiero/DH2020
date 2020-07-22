@@ -21,17 +21,12 @@ fs.readFile(__dirname + '/data/nodes.json', (err, json) => {
 
 const analysis = nodes => {
 
-    
-    const triplets = combinatorics.bigCombination(nodes, 3)
-    
     console.log('nodes', nodes.length)
-    console.log('triplets', triplets.length)
 
     const distance = 40
-    const gap = 30
+    const gap = 10
     min = Math.pow(distance * 2 - gap, 2)
     max = Math.pow(distance * 2 + gap, 2)
-
     const proximity = (a, b) => {
         const deltaX = Math.abs(a.x - b.x)
         const deltaY = Math.abs(a.y - b.y)
@@ -39,55 +34,60 @@ const analysis = nodes => {
         return (min < distance && distance < max)
     }
 
-    counter = triplets.length
-    result = []
+    const intersection = (a, b) => {
+        return a.filter(t => b.includes(t))
+    }
 
-    triplets.forEach(triplet => {
+    let counter = 0
+    let result = []
 
-        counter -= 1
+    for (let i1 = 0; i1 < nodes.length; i1++) {
 
-        const t1 = triplet[0]
-        const t2 = triplet[1]
-        const t3 = triplet[2]
-        const close = proximity(t1, t2) && proximity(t2, t3) && proximity(t3, t1)
+        const n1 = nodes[i1]
 
-        const l1 = t1.tokens.reduce((array, token) => {
-            array.push(token.term)
-            return array
-        }, [])
-        const l2 = t2.tokens.reduce((array, token) => {
-            array.push(token.term)
-            return array
-        }, [])
-        const l3 = t3.tokens.reduce((array, token) => {
-            array.push(token.term)
-            return array
-        }, [])
-        const list = l1.filter(t => l2.includes(t)).filter(t => l3.includes(t))
+        for (let i2 = i1 + 1; i2 < nodes.length; i2++) {
 
-        if (close && (list.length > 0) ) {
+            const n2 = nodes[i2]
 
-            console.log(counter)
+            if (!proximity(n1, n2)) continue
 
-            obj = {}
+            const l1 = n1.tokens.map(token => token.term)
+            const l2 = n2.tokens.map(token => token.term)
+            const l12 = intersection(l1, l2)
+            if (l12.length == 0) continue
 
-            const x = (t1.x + t2.x + t3.x) / 3
-            const y = (t1.y + t2.y + t3.y) / 3
-            
-            let tokens = []
+            for (let i3 = i2 + 1; i3 < nodes.length; i3++) {
 
-            list.forEach(token => {
-                tokens.push([token, t1.tokens[token] + t2.tokens[token] + t3.tokens[token]])
-                
-            })
-            
-            obj.position = [x, y]
-            obj.tokens = tokens
-            result.push(obj)
+                const n3 = nodes[i3]
 
+                if (!proximity(n2, n3)) continue
+                if (!proximity(n3, n1)) continue
+
+                const l3 = n3.tokens.map(token => token.term)
+                let list = intersection(l12, l3)
+                if (list.length == 0) continue
+
+                const x = (n1.x + n2.x + n3.x) / 3
+                const y = (n1.y + n2.y + n3.y) / 3
+
+                list = list.map(token => {
+                    const v1 = (n1.tokens.find(t => t.term == token).tfidf)
+                    const v2 = (n2.tokens.find(t => t.term == token).tfidf)
+                    const v3 = (n3.tokens.find(t => t.term == token).tfidf)
+                    return [token, v1 + v2 + v3]
+                })
+
+                result.push({
+                    position: [x, y],
+                    tokens: list.sort((a, b) => a - b)
+                })
+
+                counter += 1
+                console.log(counter)
+
+            }
         }
-
-    })
+    }
 
     // Writing files
 

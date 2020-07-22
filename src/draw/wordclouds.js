@@ -20,30 +20,30 @@ export default () => {
     const min = Math.pow(s.distance * 2 - gap, 2)
     const max = Math.pow(s.distance * 2 + gap, 2)
 
+    const lineHeight = 6
+    const items = 3
+
     s.triplets.forEach(triplet => {
 
-        const items = 3
         const tokens = triplet.tokens.slice(0, items)
+        const offsetY = lineHeight * tokens.length / 2
         const x = triplet.position[0]
         const y = triplet.position[1]
 
-        let counter = 0
+        tokens.forEach(([key, value], i) => {
 
-        tokens.forEach( ([key, value], i) => {
-
-            // const scale = Math.log(value) * .07
             const scale = 1.4
             const text = new PIXI.BitmapText(key, tokenStyle)
             text.tint = color
             text.scale.set(scale)
-            text.position.set(x - text.width / 2, y - text.height / 2 + i * 6 - 3)
+            text.position.set(x - text.width / 2, y - offsetY + lineHeight * i)
             stage.addChild(text)
-            
+
         })
 
 
 
-        
+
     })
 
 }

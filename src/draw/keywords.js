@@ -30,7 +30,8 @@ export default () => {
         if (min < distance && distance < max) {
 
             const [key, value] = Object.entries(link.tokens)[0]
-            const scale = Math.log(value) * .5
+            // const scale = Math.log(value) * .5
+            const scale = value * .09
             const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
             const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
 
