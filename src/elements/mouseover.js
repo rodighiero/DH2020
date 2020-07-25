@@ -14,19 +14,17 @@ export function mouseover(node) {
     focus.append('h2').html(node.name)
     focus.append('h3').html(`${node.docs} Publications`)
 
-    // Set tokens keys
-
-    s.tokens = node.tokens.slice(0, 3).map(token => token.term)
-
     // Tokens
 
     focus.append('p').html(space)
     focus.append('h3').html('Tokens by tf-idf')
     focus.append('p').html(line)
-    node.tokens.forEach(token => {
-        const blocks = block.repeat(token.tfidf)
-        focus.append('p').html(`${blocks} &nbsp; ${token.term}`)
-    })
+    Object.entries(node.tokens)
+        .slice(0, 20)
+        .forEach(([key, value]) => {
+            const blocks = block.repeat(value)
+            focus.append('p').html(`${blocks} &nbsp; ${key}`)
+        })
 
 }
 

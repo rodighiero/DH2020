@@ -172,8 +172,8 @@
 			13,
 			14,
 			350,
-			1019,
-			1020
+			1018,
+			1019
 		],
 		"variants": [],
 		"text": "From Sketching to Coding: Teaching Visualization as a Thinking Process critical visualization, visualization literacy, pedagogy undefined Reading Like Alice: Tricks of Perspective in Reading and Visualization reading; visualization; critical theory; literary studies; undefined Illuminating Past Labor: Making Transformation Processes of Historical Documents Visible Information Visualization, Data Transformation, Process Visualization, Historical University Records undefined ",
@@ -402,8 +402,8 @@
 			33,
 			34,
 			35,
-			1026,
-			1027
+			1025,
+			1026
 		],
 		"variants": [],
 		"text": "Restoration and Repurposing of DH Legacy Projects Information Systems, Legacy Systems undefined  THE READING EXPERIENCES ONTOLOGY (REO): REUSING AND EXTENDING CIDOC CRM  Ontology management, CIDOC-CRM, digital heritage, history of reading undefined ",
@@ -480,8 +480,8 @@
 		"peers": [
 			39,
 			40,
-			1068,
-			1069
+			1067,
+			1068
 		],
 		"variants": [],
 		"text": "Open, Digital Scholarship: Issues, Initiatives, and Research Commons in the Humanities and Social Sciences  open scholarship, open access, research commons, digital scholarship undefined The Open Knowledge Program: Creating Space for Digital, Public Scholarship open scholarship, open knowledge, social knowledge creation, digital humanities, public humanities undefined ",
@@ -496,8 +496,8 @@
 			191,
 			667,
 			668,
-			1068,
-			1069
+			1067,
+			1068
 		],
 		"variants": [],
 		"text": "Open, Digital Scholarship: Issues, Initiatives, and Research Commons in the Humanities and Social Sciences  open scholarship, open access, research commons, digital scholarship undefined Analyzing Link Topology to Quantify the Degree of Planned Obsolesce in Online Digital Humanities Projects degradation, abandonment, preservation, online digital humanities projects undefined The Open Knowledge Program: Creating Space for Digital, Public Scholarship open scholarship, open knowledge, social knowledge creation, digital humanities, public humanities undefined ",
@@ -582,7 +582,7 @@
 			45,
 			46,
 			47,
-			1031
+			1030
 		],
 		"variants": [],
 		"text": "Towards a Multilingual DH language, multlingual, OCR undefined The GeoNewsMiner: An interactive spatial humanities tool to visualize geographical references in historical newspapers Spatial Humanities, diasporic newspapers, transatlantic migration, NER, machine learning undefined ",
@@ -898,14 +898,14 @@
 			551,
 			552,
 			783,
+			985,
 			986,
 			987,
-			988,
 			402,
 			407,
-			1059,
-			1070,
-			1071
+			1058,
+			1069,
+			1070
 		],
 		"variants": [],
 		"text": "Who needs tool directories? A forum on sustaining discovery portals large and small directories, discovery, infrastructure, tools, sustainability undefined Faust Times Eighteen: A Network Analysis of Theatre Plays Around the Myth of Faust Faust, drama, plays, literature undefined \"To be or not to be central\" - On the Stability of Network Centrality Measures in Shakespeare's \"Hamlet\" literary network analysis undefined Opening the Stage -- A Quantitative Look at Stage Directions in German Drama drama, stage directions, history of literature, corpus exploration undefined DH Teaching Activities as a Resource for Research: Accessing the DH Course Registry Data via an API API, DH teaching, data access, data publishing undefined ",
@@ -2427,8 +2427,8 @@
 			170,
 			171,
 			680,
-			917,
-			918
+			916,
+			917
 		],
 		"variants": [],
 		"text": "Contrasting Playwrights through Sonic Signatures literature studies, linguistics, visualization undefined Stopifu: Supporting Task-Specific Stoplisting for Topic Models topic modeling, stopwords undefined A Survey of Data and Encodings in Word Clouds word clouds, visualization undefined ",
@@ -2674,13 +2674,13 @@
 			184,
 			185,
 			186,
+			969,
 			970,
 			971,
 			972,
 			973,
 			974,
-			975,
-			976
+			975
 		],
 		"variants": [],
 		"text": "Ethical Soundings in Collaborative Digital Humanities Research Projects: Critical Scenarios from The SpokenWeb Ethics, Collaboration, Research Networks, Literature, Sound Studies undefined Making Research Data Public: Workshopping Data Curation for Digital Humanities Projects data communities, research data management, data curation, digital scholarship, best practices undefined ",
@@ -3051,14 +3051,14 @@
 			716,
 			869,
 			870,
+			939,
 			940,
 			941,
 			942,
 			943,
 			944,
 			945,
-			946,
-			947
+			946
 		],
 		"variants": [],
 		"text": "The place of models and modelling in Digital Humanities: Intersections with a Research Software Engineering perspective Research Software Engineering, models, critical modelling undefined Sustainability Strategies for Digital Humanities Systems Sustainability, Research Software, Technology Stacks undefined Distant, Deep, Thick Reading across Languages: Building towards Inclusive Digital Epistemologies of Text  cross-linguistic computing, translation, distant reading, repetition strings undefined MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan Jordan, archaeology, infrastructure, data, analysis undefined ",
@@ -3482,12 +3482,12 @@
 			357,
 			524,
 			812,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Who Teaches When We Teach DH? Some Answers and More Questions.  survey, pedagogy, training, curriculum, language undefined Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
@@ -3505,12 +3505,12 @@
 			357,
 			524,
 			812,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Who Teaches When We Teach DH? Some Answers and More Questions.  survey, pedagogy, training, curriculum, language undefined Encoding Working Lives: Linking Labor, Office, and Religion in 18th-century Manuscript Collections moravian, 18th century, industrial revolution, Yorkshire undefined Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
@@ -3690,8 +3690,8 @@
 			253,
 			254,
 			255,
-			983,
-			985
+			982,
+			984
 		],
 		"variants": [],
 		"text": "PoetryLab. An Open Source Toolkit for the Analysis of Spanish Poetry Corpora syllabification, scansion, enjambment, rhyme undefined Evolución y escenario actual de las Humanidades Digitales en España Spain, Digital Humanities, digital infrastructures undefined ",
@@ -3705,8 +3705,8 @@
 			253,
 			254,
 			255,
-			983,
-			985
+			982,
+			984
 		],
 		"variants": [],
 		"text": "PoetryLab. An Open Source Toolkit for the Analysis of Spanish Poetry Corpora syllabification, scansion, enjambment, rhyme undefined Evolución y escenario actual de las Humanidades Digitales en España Spain, Digital Humanities, digital infrastructures undefined ",
@@ -3752,12 +3752,12 @@
 			239,
 			357,
 			524,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Building from Bones: DH-WoGeM and Care in DH care, ethics, organizations, labor undefined Colaboración recíproca - ¿Cómo los proyectos de humanidades digitales pueden retribuir a las instituciones culturales? newspaper collections, open data, open access, data mining, national library undefined Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
@@ -4018,8 +4018,8 @@
 			272,
 			273,
 			189,
-			1024,
-			1025
+			1023,
+			1024
 		],
 		"variants": [],
 		"text": "Deciphering Encoded Music: Increasing Access to Open Data Resources music, accessibility, retrieval, annotation, performance undefined Minimal TEI Publishing with CETEIcean text encoding, publishing, static sites, minimal computing undefined Variorum Editions Across Text and Music: the Early Modern Songscapes Project scholarly editing, data modeling, text encoding, music encoding, performance undefined ",
@@ -4350,8 +4350,8 @@
 			658,
 			659,
 			435,
-			981,
-			982
+			980,
+			981
 		],
 		"variants": [],
 		"text": "NewsEye: A digital investigator for historical newspapers Historical newspapers, quantitative analysis undefined Book printing and the rise of the vernacular in Europe, 1500–1820 book history, bibliographies, vernacularization, nation building undefined Data-driven analysis of canonical works in early modern Britain ESTC, canon, eighteenth century, public discourse, open science undefined ",
@@ -5367,12 +5367,12 @@
 			257,
 			524,
 			812,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Noh as Intermedia: Interactive Multi-Scale, Multimedia Analyses of Full-Length Noh Theater Performances intermedia, noh theater, interactive, multimedia undefined Legal Literacies for Text Data Mining tdm, law, copyright, fair use, ethics undefined Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
@@ -5570,7 +5570,7 @@
 			370,
 			371,
 			372,
-			990
+			989
 		],
 		"variants": [],
 		"text": "Sunny Days Sweepin’ the Clouds Away: Critiquing the Digital Technologies Operationalized in Smart Cities  smart cities, surveillance studies, facial recognition, political economy undefined Datasets of Criminal Faces Within and Under Facial Recognition Software (FRS) From a Digital Humanities Perspective  machine learning, facial recognition, computer vision, digital literacy, data ethics undefined ",
@@ -5962,9 +5962,9 @@
 			406,
 			69,
 			407,
-			1059,
-			1070,
-			1071
+			1058,
+			1069,
+			1070
 		],
 		"variants": [],
 		"text": "The DARIAH ELDAH consent form wizard Consent Forms, Legal Consent, Legal Issues, Data Privacy undefined Sharing is Daring: Global Copyright Laws, Knowledge Protection, and the Impact on Open Digital Humanities Copyright, Indigenous Knowledge, Cultural Heritage, Open Digital Humanities undefined DH Teaching Activities as a Resource for Research: Accessing the DH Course Registry Data via an API API, DH teaching, data access, data publishing undefined ",
@@ -6027,9 +6027,9 @@
 			404,
 			405,
 			406,
+			1010,
 			1011,
-			1012,
-			1013
+			1012
 		],
 		"variants": [],
 		"text": "Sharing is Daring: Global Copyright Laws, Knowledge Protection, and the Impact on Open Digital Humanities Copyright, Indigenous Knowledge, Cultural Heritage, Open Digital Humanities undefined Identifying relations between characters in Afrikaans, Tshivenḓa, and Xitsonga book  African languages, literary analysis, named entity recognition, network analysis undefined ",
@@ -6043,9 +6043,9 @@
 			407,
 			69,
 			402,
-			1059,
-			1070,
-			1071
+			1058,
+			1069,
+			1070
 		],
 		"variants": [],
 		"text": "Opening up Open Data: Strategies & success stories Open Data, Open Source, Hackathon, Community involvement undefined DH Teaching Activities as a Resource for Research: Accessing the DH Course Registry Data via an API API, DH teaching, data access, data publishing undefined ",
@@ -6444,8 +6444,8 @@
 			435,
 			290,
 			659,
-			981,
-			982
+			980,
+			981
 		],
 		"variants": [],
 		"text": "Counting Burned Books: A Quantitative Analysis of the Great Fire of London Bibliographic analysis, social network analysis, metadata, seventeenth century history undefined Data-driven analysis of canonical works in early modern Britain ESTC, canon, eighteenth century, public discourse, open science undefined ",
@@ -7718,12 +7718,12 @@
 			257,
 			357,
 			812,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "\"Quantifying Kissinger\" - Visualizing the Many Worlds of the Kissinger Correspondence virtual reality, data visualization, computational analysis, foreign relations, archives undefined Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
@@ -8280,8 +8280,8 @@
 			561,
 			562,
 			563,
-			930,
-			931
+			929,
+			930
 		],
 		"variants": [],
 		"text": "Computer Vision Approaches to Body Language and Facial Expressions Analysis in XX-century Cinema Cinematography, Expressiveness, Gestures, Computer Vision undefined Experiments in Analysis of Industry—Academia Collaboration and Research Trends academic research analysis, social network analysis, natural language processing undefined ",
@@ -8850,9 +8850,9 @@
 			600,
 			601,
 			602,
-			948,
-			1042,
-			1043
+			947,
+			1041,
+			1042
 		],
 		"variants": [],
 		"text": "Toward Exploring Artist Information from Seal Images in Ukiyo-e Collections image retrieval, ancient documents processing, retrieval-based recognition undefined Finding Identical Ukiyo-e Prints across Databases in Japanese, English and Dutch Ukiyo-e, cross-language record linkage, bilingual word embeddings undefined Making Ukiyo-e Easier to Discover: A Recommender System for Digital Archives Digital Archive, Ukiyo-e, Recommender System undefined ",
@@ -8866,9 +8866,9 @@
 			600,
 			601,
 			602,
-			948,
-			1042,
-			1043
+			947,
+			1041,
+			1042
 		],
 		"variants": [],
 		"text": "Toward Exploring Artist Information from Seal Images in Ukiyo-e Collections image retrieval, ancient documents processing, retrieval-based recognition undefined Finding Identical Ukiyo-e Prints across Databases in Japanese, English and Dutch Ukiyo-e, cross-language record linkage, bilingual word embeddings undefined Making Ukiyo-e Easier to Discover: A Recommender System for Digital Archives Digital Archive, Ukiyo-e, Recommender System undefined ",
@@ -8882,8 +8882,8 @@
 			600,
 			601,
 			602,
-			1042,
-			1043
+			1041,
+			1042
 		],
 		"variants": [],
 		"text": "Toward Exploring Artist Information from Seal Images in Ukiyo-e Collections image retrieval, ancient documents processing, retrieval-based recognition undefined Making Ukiyo-e Easier to Discover: A Recommender System for Digital Archives Digital Archive, Ukiyo-e, Recommender System undefined ",
@@ -9004,8 +9004,8 @@
 		"peers": [
 			611,
 			612,
-			1052,
-			1085
+			1051,
+			1084
 		],
 		"variants": [],
 		"text": "Intersecting Digital Archives and GIS Technologies: Bringing IIIF Images to GIS Environments GIS, IIIF, Georeferencing, Digital Archives undefined Information extraction across textual corpora: semi-automatic text-tagging workflow with Chinese local gazetteers text-tagging, information extraction, local gazetteers, Chinese history undefined ",
@@ -9613,8 +9613,8 @@
 			658,
 			659,
 			435,
-			981,
-			982
+			980,
+			981
 		],
 		"variants": [],
 		"text": "Book printing and the rise of the vernacular in Europe, 1500–1820 book history, bibliographies, vernacularization, nation building undefined Data-driven analysis of canonical works in early modern Britain ESTC, canon, eighteenth century, public discourse, open science undefined ",
@@ -10207,11 +10207,11 @@
 		"peers": [
 			707,
 			708,
+			1013,
 			1014,
 			1015,
 			1016,
-			1017,
-			1018
+			1017
 		],
 		"variants": [],
 		"text": "Residual or Essential: On the Problem of Overlap as Argument to Broaden the Solution Space of Markup stand off, markup, annotation, multidimensional text undefined Features of Timelessness: Intermediate Report on a Quest for Stylistic Features that Mark Literary Canonicity stylometry, literature, features, canonicity undefined ",
@@ -10792,9 +10792,9 @@
 		"peers": [
 			748,
 			749,
+			952,
 			953,
-			954,
-			955
+			954
 		],
 		"variants": [],
 		"text": "INVESTIGATING THE USE OF SOCIAL MEDIA FOR HEALTH CARE ADVOCACY IN NIGERIA: A DIGITAL MEDICAL HUMANITIES APPROACH Technology, Health Humanities, New Media undefined Building new global DH communities: Africa and beyond  Africa, global, participation, access, networks undefined ",
@@ -11269,9 +11269,9 @@
 			785,
 			786,
 			69,
+			985,
 			986,
-			987,
-			988
+			987
 		],
 		"variants": [],
 		"text": "A Priority Programme on Computational Literary Studies literary studies, projects, text mining undefined Opening the Stage -- A Quantitative Look at Stage Directions in German Drama drama, stage directions, history of literature, corpus exploration undefined ",
@@ -11669,18 +11669,22 @@
 		"id": 810
 	},
 	{
-		"name": "David Shepard",
-		"docs": 1,
+		"name": "David Lawrence Shepard",
+		"docs": 3,
 		"peers": [
 			806,
 			807,
 			808,
 			809,
 			810,
-			811
+			811,
+			912,
+			913,
+			914,
+			915
 		],
 		"variants": [],
-		"text": "Digital Humanities Methods for Analyzing Holocaust and Genocide Testimonies Holocaust and genocide studies, testimony, text analysis, visualization undefined ",
+		"text": "Digital Humanities Methods for Analyzing Holocaust and Genocide Testimonies Holocaust and genocide studies, testimony, text analysis, visualization undefined HANDLE: Get a Grip on MALLET topic modeling, text mining, MALLET undefined  Unsupervised Rumor Detection on Twitter using Topic Homogeneity twitter, text mining, graph theory, rumor detection undefined ",
 		"id": 811
 	},
 	{
@@ -11693,12 +11697,12 @@
 			239,
 			357,
 			524,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Colaboración recíproca - ¿Cómo los proyectos de humanidades digitales pueden retribuir a las instituciones culturales? newspaper collections, open data, open access, data mining, national library undefined Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
@@ -12619,9 +12623,9 @@
 			888,
 			889,
 			890,
+			990,
 			991,
-			992,
-			993
+			992
 		],
 		"variants": [],
 		"text": "SDC4Lit - a science data center for literature digital literature, archive, analysis, modeling undefined Modeling possible stories. A digital edition of Giovanni Domenico Tiepolo's Divertimento per li Regazzi  digital art history, CIDOC, digital edition, Tiepolo undefined ",
@@ -12944,8 +12948,8 @@
 			784,
 			900,
 			901,
-			979,
-			1083
+			978,
+			1082
 		],
 		"variants": [],
 		"text": "Replication and Computational Literary Studies replication, reproduction, computational literary studies undefined Constructing and Analyzing Short Science Fiction at Scale science fiction, text segmentation, anthologies, corpus construction, text analysis undefined  Network Analysis Finds Shifts in the History of Modern Architecture networks, architecture, history undefined ",
@@ -13074,529 +13078,515 @@
 		"id": 911
 	},
 	{
-		"name": "David Lawrence Shepard",
-		"docs": 2,
-		"peers": [
-			912,
-			913,
-			914,
-			915,
-			916
-		],
-		"variants": [],
-		"text": "HANDLE: Get a Grip on MALLET topic modeling, text mining, MALLET undefined  Unsupervised Rumor Detection on Twitter using Topic Homogeneity twitter, text mining, graph theory, rumor detection undefined ",
-		"id": 912
-	},
-	{
 		"name": "Takako Hashimoto",
 		"docs": 1,
 		"peers": [
+			811,
 			912,
 			913,
 			914,
-			915,
-			916
+			915
+		],
+		"variants": [],
+		"text": " Unsupervised Rumor Detection on Twitter using Topic Homogeneity twitter, text mining, graph theory, rumor detection undefined ",
+		"id": 912
+	},
+	{
+		"name": "Kilho Shin",
+		"docs": 1,
+		"peers": [
+			811,
+			912,
+			913,
+			914,
+			915
 		],
 		"variants": [],
 		"text": " Unsupervised Rumor Detection on Twitter using Topic Homogeneity twitter, text mining, graph theory, rumor detection undefined ",
 		"id": 913
 	},
 	{
-		"name": "Kilho Shin",
+		"name": "Takeaki Uno",
 		"docs": 1,
 		"peers": [
+			811,
 			912,
 			913,
 			914,
-			915,
-			916
+			915
 		],
 		"variants": [],
 		"text": " Unsupervised Rumor Detection on Twitter using Topic Homogeneity twitter, text mining, graph theory, rumor detection undefined ",
 		"id": 914
 	},
 	{
-		"name": "Takeaki Uno",
+		"name": "Tetsuji Kuboyama",
 		"docs": 1,
 		"peers": [
+			811,
 			912,
 			913,
 			914,
-			915,
-			916
+			915
 		],
 		"variants": [],
 		"text": " Unsupervised Rumor Detection on Twitter using Topic Homogeneity twitter, text mining, graph theory, rumor detection undefined ",
 		"id": 915
 	},
 	{
-		"name": "Tetsuji Kuboyama",
-		"docs": 1,
-		"peers": [
-			912,
-			913,
-			914,
-			915,
-			916
-		],
-		"variants": [],
-		"text": " Unsupervised Rumor Detection on Twitter using Topic Homogeneity twitter, text mining, graph theory, rumor detection undefined ",
-		"id": 916
-	},
-	{
 		"name": "Muyang Shi",
 		"docs": 1,
 		"peers": [
 			171,
-			917,
-			918
+			916,
+			917
 		],
 		"variants": [],
 		"text": "A Survey of Data and Encodings in Word Clouds word clouds, visualization undefined ",
-		"id": 917
+		"id": 916
 	},
 	{
 		"name": "Danielle Albers Szafir",
 		"docs": 1,
 		"peers": [
 			171,
-			917,
-			918
+			916,
+			917
 		],
 		"variants": [],
 		"text": "A Survey of Data and Encodings in Word Clouds word clouds, visualization undefined ",
-		"id": 918
+		"id": 917
 	},
 	{
 		"name": "Ayako Shibutani",
 		"docs": 1,
 		"peers": [
-			919,
-			920
+			918,
+			919
+		],
+		"variants": [],
+		"text": "How Do Research Data Develop? International Standardisation of Scientific Data in Historical Studies Cultural Heritage Science, Japanese history, linked data, open data, standardization undefined ",
+		"id": 918
+	},
+	{
+		"name": "Makoto Goto",
+		"docs": 1,
+		"peers": [
+			918,
+			919
 		],
 		"variants": [],
 		"text": "How Do Research Data Develop? International Standardisation of Scientific Data in Historical Studies Cultural Heritage Science, Japanese history, linked data, open data, standardization undefined ",
 		"id": 919
 	},
 	{
-		"name": "Makoto Goto",
-		"docs": 1,
-		"peers": [
-			919,
-			920
-		],
-		"variants": [],
-		"text": "How Do Research Data Develop? International Standardisation of Scientific Data in Historical Studies Cultural Heritage Science, Japanese history, linked data, open data, standardization undefined ",
-		"id": 920
-	},
-	{
 		"name": "David F. Shultz",
 		"docs": 1,
 		"peers": [
-			921
+			920
 		],
 		"variants": [],
 		"text": "Haikupedia haiku, NLP, wikipedia, USE, deformance undefined ",
-		"id": 921
+		"id": 920
 	},
 	{
 		"name": "Mark Shuttleworth",
 		"docs": 1,
 		"peers": [
+			921,
 			922,
-			923,
-			924
+			923
+		],
+		"variants": [],
+		"text": "Tracking the framing of politicians and news events across the multilingual Wikipedia: translation and its unseen impact Wikipedia translation, multilingual Wikipedia, point of view, knowledge production, political translation undefined ",
+		"id": 921
+	},
+	{
+		"name": "Jun Pan",
+		"docs": 1,
+		"peers": [
+			921,
+			922,
+			923
 		],
 		"variants": [],
 		"text": "Tracking the framing of politicians and news events across the multilingual Wikipedia: translation and its unseen impact Wikipedia translation, multilingual Wikipedia, point of view, knowledge production, political translation undefined ",
 		"id": 922
 	},
 	{
-		"name": "Jun Pan",
+		"name": "Zhilu Tu",
 		"docs": 1,
 		"peers": [
+			921,
 			922,
-			923,
-			924
+			923
 		],
 		"variants": [],
 		"text": "Tracking the framing of politicians and news events across the multilingual Wikipedia: translation and its unseen impact Wikipedia translation, multilingual Wikipedia, point of view, knowledge production, political translation undefined ",
 		"id": 923
 	},
 	{
-		"name": "Zhilu Tu",
-		"docs": 1,
-		"peers": [
-			922,
-			923,
-			924
-		],
-		"variants": [],
-		"text": "Tracking the framing of politicians and news events across the multilingual Wikipedia: translation and its unseen impact Wikipedia translation, multilingual Wikipedia, point of view, knowledge production, political translation undefined ",
-		"id": 924
-	},
-	{
 		"name": "Lynne Siemens",
 		"docs": 1,
 		"peers": [
-			925
+			924
 		],
 		"variants": [],
 		"text": "University-Industry Partnerships in the Humanities: View from the partner and academic perspective collaboration, academic teams, project management undefined ",
-		"id": 925
+		"id": 924
 	},
 	{
 		"name": "Sara Sikes",
 		"docs": 2,
 		"peers": [
+			925,
 			926,
 			927,
 			928,
-			929,
 			238,
 			239,
 			257,
 			357,
 			524,
 			812,
-			953,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "DH and the Gig Economy: The opportunities and ethical challenges of Sourcery sharing economy, gig economy, labor, archives undefined Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
-		"id": 926
+		"id": 925
 	},
 	{
 		"name": "Clarissa Ceglio",
 		"docs": 1,
 		"peers": [
+			925,
 			926,
 			927,
-			928,
-			929
+			928
+		],
+		"variants": [],
+		"text": "DH and the Gig Economy: The opportunities and ethical challenges of Sourcery sharing economy, gig economy, labor, archives undefined ",
+		"id": 926
+	},
+	{
+		"name": "Wes Hamrick",
+		"docs": 1,
+		"peers": [
+			925,
+			926,
+			927,
+			928
 		],
 		"variants": [],
 		"text": "DH and the Gig Economy: The opportunities and ethical challenges of Sourcery sharing economy, gig economy, labor, archives undefined ",
 		"id": 927
 	},
 	{
-		"name": "Wes Hamrick",
+		"name": "Tom Scheinfeldt",
 		"docs": 1,
 		"peers": [
+			925,
 			926,
 			927,
-			928,
-			929
+			928
 		],
 		"variants": [],
 		"text": "DH and the Gig Economy: The opportunities and ethical challenges of Sourcery sharing economy, gig economy, labor, archives undefined ",
 		"id": 928
 	},
 	{
-		"name": "Tom Scheinfeldt",
-		"docs": 1,
-		"peers": [
-			926,
-			927,
-			928,
-			929
-		],
-		"variants": [],
-		"text": "DH and the Gig Economy: The opportunities and ethical challenges of Sourcery sharing economy, gig economy, labor, archives undefined ",
-		"id": 929
-	},
-	{
 		"name": "Daniil Skorinkin",
 		"docs": 1,
 		"peers": [
 			563,
-			930,
-			931
+			929,
+			930
 		],
 		"variants": [],
 		"text": "Experiments in Analysis of Industry—Academia Collaboration and Research Trends academic research analysis, social network analysis, natural language processing undefined ",
-		"id": 930
+		"id": 929
 	},
 	{
 		"name": "Irina Busurkina",
 		"docs": 1,
 		"peers": [
 			563,
-			930,
-			931
+			929,
+			930
 		],
 		"variants": [],
 		"text": "Experiments in Analysis of Industry—Academia Collaboration and Research Trends academic research analysis, social network analysis, natural language processing undefined ",
-		"id": 931
+		"id": 930
 	},
 	{
 		"name": "Elizabeth Lauren Smith",
 		"docs": 1,
 		"peers": [
-			932
+			931
 		],
 		"variants": [],
 		"text": "De-centering Darwin: opening up nineteenth century scientific correspondence and putting Darwin in context Darwin, correspondence, TEI, science, letters undefined ",
-		"id": 932
+		"id": 931
 	},
 	{
 		"name": "Pamela H. Smith",
 		"docs": 1,
 		"peers": [
+			932,
 			933,
 			934,
 			935,
 			936,
 			937,
-			938,
-			939
+			938
+		],
+		"variants": [],
+		"text": "Sustainability in the Making and Knowing Project: From Scholarly Edition to Community Crossroads Scholarly Edition, Critical Making, Pedagogy, Art, Science undefined ",
+		"id": 932
+	},
+	{
+		"name": "Nick Laiacona",
+		"docs": 1,
+		"peers": [
+			932,
+			933,
+			934,
+			935,
+			936,
+			937,
+			938
 		],
 		"variants": [],
 		"text": "Sustainability in the Making and Knowing Project: From Scholarly Edition to Community Crossroads Scholarly Edition, Critical Making, Pedagogy, Art, Science undefined ",
 		"id": 933
 	},
 	{
-		"name": "Nick Laiacona",
+		"name": "Terry Catapano",
 		"docs": 1,
 		"peers": [
+			932,
 			933,
 			934,
 			935,
 			936,
 			937,
-			938,
-			939
+			938
 		],
 		"variants": [],
 		"text": "Sustainability in the Making and Knowing Project: From Scholarly Edition to Community Crossroads Scholarly Edition, Critical Making, Pedagogy, Art, Science undefined ",
 		"id": 934
 	},
 	{
-		"name": "Terry Catapano",
+		"name": "Naomi Rosenkranz",
 		"docs": 1,
 		"peers": [
+			932,
 			933,
 			934,
 			935,
 			936,
 			937,
-			938,
-			939
+			938
 		],
 		"variants": [],
 		"text": "Sustainability in the Making and Knowing Project: From Scholarly Edition to Community Crossroads Scholarly Edition, Critical Making, Pedagogy, Art, Science undefined ",
 		"id": 935
 	},
 	{
-		"name": "Naomi Rosenkranz",
+		"name": "Tianna Helena Uchacz",
 		"docs": 1,
 		"peers": [
+			932,
 			933,
 			934,
 			935,
 			936,
 			937,
-			938,
-			939
+			938
 		],
 		"variants": [],
 		"text": "Sustainability in the Making and Knowing Project: From Scholarly Edition to Community Crossroads Scholarly Edition, Critical Making, Pedagogy, Art, Science undefined ",
 		"id": 936
 	},
 	{
-		"name": "Tianna Helena Uchacz",
+		"name": "Clement Godbarge",
 		"docs": 1,
 		"peers": [
+			932,
 			933,
 			934,
 			935,
 			936,
 			937,
-			938,
-			939
+			938
 		],
 		"variants": [],
 		"text": "Sustainability in the Making and Knowing Project: From Scholarly Edition to Community Crossroads Scholarly Edition, Critical Making, Pedagogy, Art, Science undefined ",
 		"id": 937
 	},
 	{
-		"name": "Clement Godbarge",
+		"name": "Tillmann Taape",
 		"docs": 1,
 		"peers": [
+			932,
 			933,
 			934,
 			935,
 			936,
 			937,
-			938,
-			939
+			938
 		],
 		"variants": [],
 		"text": "Sustainability in the Making and Knowing Project: From Scholarly Edition to Community Crossroads Scholarly Edition, Critical Making, Pedagogy, Art, Science undefined ",
 		"id": 938
 	},
 	{
-		"name": "Tillmann Taape",
-		"docs": 1,
-		"peers": [
-			933,
-			934,
-			935,
-			936,
-			937,
-			938,
-			939
-		],
-		"variants": [],
-		"text": "Sustainability in the Making and Knowing Project: From Scholarly Edition to Community Crossroads Scholarly Edition, Critical Making, Pedagogy, Art, Science undefined ",
-		"id": 939
-	},
-	{
 		"name": "James Smithies",
 		"docs": 1,
 		"peers": [
 			212,
+			939,
 			940,
 			941,
 			942,
 			943,
 			944,
 			945,
-			946,
-			947
+			946
 		],
 		"variants": [],
 		"text": "MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan Jordan, archaeology, infrastructure, data, analysis undefined ",
-		"id": 940
+		"id": 939
 	},
 	{
 		"name": "Fadi Balaawi",
 		"docs": 1,
 		"peers": [
 			212,
+			939,
 			940,
 			941,
 			942,
 			943,
 			944,
 			945,
-			946,
-			947
+			946
 		],
 		"variants": [],
 		"text": "MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan Jordan, archaeology, infrastructure, data, analysis undefined ",
-		"id": 941
+		"id": 940
 	},
 	{
 		"name": "Pascal Flohr",
 		"docs": 1,
 		"peers": [
 			212,
+			939,
 			940,
 			941,
 			942,
 			943,
 			944,
 			945,
-			946,
-			947
+			946
 		],
 		"variants": [],
 		"text": "MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan Jordan, archaeology, infrastructure, data, analysis undefined ",
-		"id": 942
+		"id": 941
 	},
 	{
 		"name": "Shaher Rababeh",
 		"docs": 1,
 		"peers": [
 			212,
+			939,
 			940,
 			941,
 			942,
 			943,
 			944,
 			945,
-			946,
-			947
+			946
 		],
 		"variants": [],
 		"text": "MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan Jordan, archaeology, infrastructure, data, analysis undefined ",
-		"id": 943
+		"id": 942
 	},
 	{
 		"name": "Sahar Idwan",
 		"docs": 1,
 		"peers": [
 			212,
+			939,
 			940,
 			941,
 			942,
 			943,
 			944,
 			945,
-			946,
-			947
+			946
 		],
 		"variants": [],
 		"text": "MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan Jordan, archaeology, infrastructure, data, analysis undefined ",
-		"id": 944
+		"id": 943
 	},
 	{
 		"name": "Carol Palmer",
 		"docs": 1,
 		"peers": [
 			212,
+			939,
 			940,
 			941,
 			942,
 			943,
 			944,
 			945,
-			946,
-			947
+			946
 		],
 		"variants": [],
 		"text": "MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan Jordan, archaeology, infrastructure, data, analysis undefined ",
-		"id": 945
+		"id": 944
 	},
 	{
 		"name": "Shatha Mubaideen",
 		"docs": 1,
 		"peers": [
 			212,
+			939,
 			940,
 			941,
 			942,
 			943,
 			944,
 			945,
-			946,
-			947
+			946
 		],
 		"variants": [],
 		"text": "MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan Jordan, archaeology, infrastructure, data, analysis undefined ",
-		"id": 946
+		"id": 945
 	},
 	{
 		"name": "Alessandra Esposito",
 		"docs": 1,
 		"peers": [
 			212,
+			939,
 			940,
 			941,
 			942,
 			943,
 			944,
 			945,
-			946,
-			947
+			946
 		],
 		"variants": [],
 		"text": "MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan Jordan, archaeology, infrastructure, data, analysis undefined ",
-		"id": 947
+		"id": 946
 	},
 	{
 		"name": "Yuting Song",
@@ -13604,439 +13594,439 @@
 		"peers": [
 			600,
 			601,
-			948
+			947
 		],
 		"variants": [],
 		"text": "Finding Identical Ukiyo-e Prints across Databases in Japanese, English and Dutch Ukiyo-e, cross-language record linkage, bilingual word embeddings undefined ",
-		"id": 948
+		"id": 947
 	},
 	{
 		"name": "Jean S. e Spritzer",
 		"docs": 1,
 		"peers": [
-			949
+			948
 		],
 		"variants": [],
 		"text": "Prosopography in the digital era? Experiments in managing data from a Historical and Biographical dictionary Prosopogaphy, Biography, Text Minin, Brazilian Politics undefined ",
-		"id": 949
+		"id": 948
 	},
 	{
 		"name": "Joseph Ssebulime",
 		"docs": 1,
 		"peers": [
-			950,
-			951
+			949,
+			950
+		],
+		"variants": [],
+		"text": " THE DIGITAL TURN IN AFRICA - ACADEMIC LIBRARIES AS INTERSECTIONS FOR DIGITAL HUMANITIES INITIATIVES DIGITAL TURN IN AFRICA, ACADEMIC LIBRARIES, INTERSECTIONS, DIGITAL HUMANITIES INITIATIVES undefined ",
+		"id": 949
+	},
+	{
+		"name": "Johann Van Wyk",
+		"docs": 1,
+		"peers": [
+			949,
+			950
 		],
 		"variants": [],
 		"text": " THE DIGITAL TURN IN AFRICA - ACADEMIC LIBRARIES AS INTERSECTIONS FOR DIGITAL HUMANITIES INITIATIVES DIGITAL TURN IN AFRICA, ACADEMIC LIBRARIES, INTERSECTIONS, DIGITAL HUMANITIES INITIATIVES undefined ",
 		"id": 950
 	},
 	{
-		"name": "Johann Van Wyk",
-		"docs": 1,
-		"peers": [
-			950,
-			951
-		],
-		"variants": [],
-		"text": " THE DIGITAL TURN IN AFRICA - ACADEMIC LIBRARIES AS INTERSECTIONS FOR DIGITAL HUMANITIES INITIATIVES DIGITAL TURN IN AFRICA, ACADEMIC LIBRARIES, INTERSECTIONS, DIGITAL HUMANITIES INITIATIVES undefined ",
-		"id": 951
-	},
-	{
 		"name": "Samantha Emily Stevens-Hall",
 		"docs": 1,
 		"peers": [
-			952
+			951
 		],
 		"variants": [],
 		"text": "Making Uganda’s Intellectual History Digital: Knowledge Preservation and Ethical Considerations Africa, intellectual history, OMEKA, digitization, ethical collaboration undefined ",
-		"id": 952
+		"id": 951
 	},
 	{
 		"name": "Juan Steyn",
 		"docs": 2,
 		"peers": [
 			748,
+			952,
 			953,
 			954,
-			955,
 			238,
 			239,
 			257,
 			357,
 			524,
 			812,
-			926,
+			925,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Building new global DH communities: Africa and beyond  Africa, global, participation, access, networks undefined Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
-		"id": 953
+		"id": 952
 	},
 	{
 		"name": "Felix Ameka",
 		"docs": 1,
 		"peers": [
 			748,
+			952,
 			953,
-			954,
-			955
+			954
 		],
 		"variants": [],
 		"text": "Building new global DH communities: Africa and beyond  Africa, global, participation, access, networks undefined ",
-		"id": 954
+		"id": 953
 	},
 	{
 		"name": "Sara Petrollino",
 		"docs": 1,
 		"peers": [
 			748,
+			952,
 			953,
-			954,
-			955
+			954
 		],
 		"variants": [],
 		"text": "Building new global DH communities: Africa and beyond  Africa, global, participation, access, networks undefined ",
-		"id": 955
+		"id": 954
 	},
 	{
 		"name": "Deanna Stover",
 		"docs": 1,
 		"peers": [
-			956,
-			957
+			955,
+			956
+		],
+		"variants": [],
+		"text": "Cyborg Public Humanities: The Digital-Material Exhibit and the Classroom public humanities; student-centered learning; digital exhibits; material history undefined ",
+		"id": 955
+	},
+	{
+		"name": "Michaela Baca",
+		"docs": 1,
+		"peers": [
+			955,
+			956
 		],
 		"variants": [],
 		"text": "Cyborg Public Humanities: The Digital-Material Exhibit and the Classroom public humanities; student-centered learning; digital exhibits; material history undefined ",
 		"id": 956
 	},
 	{
-		"name": "Michaela Baca",
-		"docs": 1,
-		"peers": [
-			956,
-			957
-		],
-		"variants": [],
-		"text": "Cyborg Public Humanities: The Digital-Material Exhibit and the Classroom public humanities; student-centered learning; digital exhibits; material history undefined ",
-		"id": 957
-	},
-	{
 		"name": "Chris Alen Sula",
 		"docs": 1,
 		"peers": [
+			957,
 			958,
 			959,
-			960,
-			961
+			960
+		],
+		"variants": [],
+		"text": "Digital Humanities among the iSchools: An Anlysis of DH Courses curriculum, pedagogy, information studies undefined ",
+		"id": 957
+	},
+	{
+		"name": "Xiaoguang Wang",
+		"docs": 1,
+		"peers": [
+			957,
+			958,
+			959,
+			960
 		],
 		"variants": [],
 		"text": "Digital Humanities among the iSchools: An Anlysis of DH Courses curriculum, pedagogy, information studies undefined ",
 		"id": 958
 	},
 	{
-		"name": "Xiaoguang Wang",
+		"name": "Heejin Park",
 		"docs": 1,
 		"peers": [
+			957,
 			958,
 			959,
-			960,
-			961
+			960
 		],
 		"variants": [],
 		"text": "Digital Humanities among the iSchools: An Anlysis of DH Courses curriculum, pedagogy, information studies undefined ",
 		"id": 959
 	},
 	{
-		"name": "Heejin Park",
+		"name": "Claudia Berger",
 		"docs": 1,
 		"peers": [
+			957,
 			958,
 			959,
-			960,
-			961
+			960
 		],
 		"variants": [],
 		"text": "Digital Humanities among the iSchools: An Anlysis of DH Courses curriculum, pedagogy, information studies undefined ",
 		"id": 960
 	},
 	{
-		"name": "Claudia Berger",
-		"docs": 1,
-		"peers": [
-			958,
-			959,
-			960,
-			961
-		],
-		"variants": [],
-		"text": "Digital Humanities among the iSchools: An Anlysis of DH Courses curriculum, pedagogy, information studies undefined ",
-		"id": 961
-	},
-	{
 		"name": "Elizabeth Anne Swanstrom",
 		"docs": 1,
 		"peers": [
-			962
+			961
 		],
 		"variants": [],
 		"text": "Coding Literary Ecologies environmental humanities, digital humanities, literary studies, natural language processing, media ecologies undefined ",
-		"id": 962
+		"id": 961
 	},
 	{
 		"name": "Chris Tanasescu",
 		"docs": 1,
 		"peers": [
+			962,
 			963,
 			964,
 			965,
-			966,
-			967
+			966
+		],
+		"variants": [],
+		"text": "Multilayer Network Applications in Poetry. Centralities & Automated Corpus Expansion in Computationally Assembled Anthologies  NLP, Poetry, Graph Theory, Multilayer Networks undefined ",
+		"id": 962
+	},
+	{
+		"name": "Diana Inkpen",
+		"docs": 1,
+		"peers": [
+			962,
+			963,
+			964,
+			965,
+			966
 		],
 		"variants": [],
 		"text": "Multilayer Network Applications in Poetry. Centralities & Automated Corpus Expansion in Computationally Assembled Anthologies  NLP, Poetry, Graph Theory, Multilayer Networks undefined ",
 		"id": 963
 	},
 	{
-		"name": "Diana Inkpen",
+		"name": "Jean Vanderdonckt",
 		"docs": 1,
 		"peers": [
+			962,
 			963,
 			964,
 			965,
-			966,
-			967
+			966
 		],
 		"variants": [],
 		"text": "Multilayer Network Applications in Poetry. Centralities & Automated Corpus Expansion in Computationally Assembled Anthologies  NLP, Poetry, Graph Theory, Multilayer Networks undefined ",
 		"id": 964
 	},
 	{
-		"name": "Jean Vanderdonckt",
+		"name": "Nicolas Burny",
 		"docs": 1,
 		"peers": [
+			962,
 			963,
 			964,
 			965,
-			966,
-			967
+			966
 		],
 		"variants": [],
 		"text": "Multilayer Network Applications in Poetry. Centralities & Automated Corpus Expansion in Computationally Assembled Anthologies  NLP, Poetry, Graph Theory, Multilayer Networks undefined ",
 		"id": 965
 	},
 	{
-		"name": "Nicolas Burny",
+		"name": "Vaibhav Kesarwani",
 		"docs": 1,
 		"peers": [
+			962,
 			963,
 			964,
 			965,
-			966,
-			967
+			966
 		],
 		"variants": [],
 		"text": "Multilayer Network Applications in Poetry. Centralities & Automated Corpus Expansion in Computationally Assembled Anthologies  NLP, Poetry, Graph Theory, Multilayer Networks undefined ",
 		"id": 966
 	},
 	{
-		"name": "Vaibhav Kesarwani",
-		"docs": 1,
-		"peers": [
-			963,
-			964,
-			965,
-			966,
-			967
-		],
-		"variants": [],
-		"text": "Multilayer Network Applications in Poetry. Centralities & Automated Corpus Expansion in Computationally Assembled Anthologies  NLP, Poetry, Graph Theory, Multilayer Networks undefined ",
-		"id": 967
-	},
-	{
 		"name": "Raluca A. Tanasescu",
 		"docs": 1,
 		"peers": [
-			968,
-			969
+			967,
+			968
+		],
+		"variants": [],
+		"text": "Taming the Data: Web-Scraping and De-Duplicating Messy Multilingual Philosophy Corpora web crawling, text analysis, data cleaning, deduplication, corpus expansion undefined ",
+		"id": 967
+	},
+	{
+		"name": "Cristian A. Marocico",
+		"docs": 1,
+		"peers": [
+			967,
+			968
 		],
 		"variants": [],
 		"text": "Taming the Data: Web-Scraping and De-Duplicating Messy Multilingual Philosophy Corpora web crawling, text analysis, data cleaning, deduplication, corpus expansion undefined ",
 		"id": 968
 	},
 	{
-		"name": "Cristian A. Marocico",
-		"docs": 1,
-		"peers": [
-			968,
-			969
-		],
-		"variants": [],
-		"text": "Taming the Data: Web-Scraping and De-Duplicating Messy Multilingual Philosophy Corpora web crawling, text analysis, data cleaning, deduplication, corpus expansion undefined ",
-		"id": 969
-	},
-	{
 		"name": "Felicity Tayler",
 		"docs": 1,
 		"peers": [
 			186,
+			969,
 			970,
 			971,
 			972,
 			973,
 			974,
-			975,
-			976
+			975
 		],
 		"variants": [],
 		"text": "Making Research Data Public: Workshopping Data Curation for Digital Humanities Projects data communities, research data management, data curation, digital scholarship, best practices undefined ",
-		"id": 970
+		"id": 969
 	},
 	{
 		"name": "Sarah Simpkin",
 		"docs": 1,
 		"peers": [
 			186,
+			969,
 			970,
 			971,
 			972,
 			973,
 			974,
-			975,
-			976
+			975
 		],
 		"variants": [],
 		"text": "Making Research Data Public: Workshopping Data Curation for Digital Humanities Projects data communities, research data management, data curation, digital scholarship, best practices undefined ",
-		"id": 971
+		"id": 970
 	},
 	{
 		"name": "Marjorie Mitchell",
 		"docs": 1,
 		"peers": [
 			186,
+			969,
 			970,
 			971,
 			972,
 			973,
 			974,
-			975,
-			976
+			975
 		],
 		"variants": [],
 		"text": "Making Research Data Public: Workshopping Data Curation for Digital Humanities Projects data communities, research data management, data curation, digital scholarship, best practices undefined ",
-		"id": 972
+		"id": 971
 	},
 	{
 		"name": "Constance Crompton",
 		"docs": 1,
 		"peers": [
 			186,
+			969,
 			970,
 			971,
 			972,
 			973,
 			974,
-			975,
-			976
+			975
 		],
 		"variants": [],
 		"text": "Making Research Data Public: Workshopping Data Curation for Digital Humanities Projects data communities, research data management, data curation, digital scholarship, best practices undefined ",
-		"id": 973
+		"id": 972
 	},
 	{
 		"name": "Matthew Lincoln",
 		"docs": 1,
 		"peers": [
 			186,
+			969,
 			970,
 			971,
 			972,
 			973,
 			974,
-			975,
-			976
+			975
 		],
 		"variants": [],
 		"text": "Making Research Data Public: Workshopping Data Curation for Digital Humanities Projects data communities, research data management, data curation, digital scholarship, best practices undefined ",
-		"id": 974
+		"id": 973
 	},
 	{
 		"name": "Mikhel Proulx",
 		"docs": 1,
 		"peers": [
 			186,
+			969,
 			970,
 			971,
 			972,
 			973,
 			974,
-			975,
-			976
+			975
 		],
 		"variants": [],
 		"text": "Making Research Data Public: Workshopping Data Curation for Digital Humanities Projects data communities, research data management, data curation, digital scholarship, best practices undefined ",
-		"id": 975
+		"id": 974
 	},
 	{
 		"name": "Meghan Goodchild",
 		"docs": 1,
 		"peers": [
 			186,
+			969,
 			970,
 			971,
 			972,
 			973,
 			974,
-			975,
-			976
+			975
 		],
 		"variants": [],
 		"text": "Making Research Data Public: Workshopping Data Curation for Digital Humanities Projects data communities, research data management, data curation, digital scholarship, best practices undefined ",
-		"id": 976
+		"id": 975
 	},
 	{
 		"name": "Orion Teal",
 		"docs": 1,
 		"peers": [
-			977
+			976
 		],
 		"variants": [],
 		"text": "Teaching Across the Digital Divide: The Challenges of Doing Digital Humanities in the Community College Classroom  digital pedagogy, community colleges, equity undefined ",
-		"id": 977
+		"id": 976
 	},
 	{
 		"name": "Wilhelm Gustaf Tempelhoff",
 		"docs": 1,
 		"peers": [
-			978
+			977
 		],
 		"variants": [],
 		"text": "Designing accessible platforms: Site-specific digital literature for people with visual impairment Interface design, Accessibility, Site-specific digital literature, Participative inquiry undefined ",
-		"id": 978
+		"id": 977
 	},
 	{
 		"name": "Laure Thompson",
 		"docs": 1,
 		"peers": [
 			901,
-			979
+			978
 		],
 		"variants": [],
 		"text": "Constructing and Analyzing Short Science Fiction at Scale science fiction, text segmentation, anthologies, corpus construction, text analysis undefined ",
-		"id": 979
+		"id": 978
 	},
 	{
 		"name": "Irene Tobon Restrepo",
 		"docs": 1,
 		"peers": [
-			980
+			979
 		],
 		"variants": [],
 		"text": "La Enciclopedia de Banrepcultural: Una enciclopedia digital de patrimonio cultural colombiano, que nace de la colaboración de los visitantes de las Bibliotecas del Banco de la República  Colombia, cultural heritage, crowdsourcing undefined ",
-		"id": 980
+		"id": 979
 	},
 	{
 		"name": "Ali Ijaz",
@@ -14045,12 +14035,12 @@
 			290,
 			435,
 			659,
-			981,
-			982
+			980,
+			981
 		],
 		"variants": [],
 		"text": "Data-driven analysis of canonical works in early modern Britain ESTC, canon, eighteenth century, public discourse, open science undefined ",
-		"id": 981
+		"id": 980
 	},
 	{
 		"name": "Ville Vaara",
@@ -14059,37 +14049,37 @@
 			290,
 			435,
 			659,
-			981,
-			982
+			980,
+			981
 		],
 		"variants": [],
 		"text": "Data-driven analysis of canonical works in early modern Britain ESTC, canon, eighteenth century, public discourse, open science undefined ",
-		"id": 982
+		"id": 981
 	},
 	{
 		"name": "Maurizio Toscano",
 		"docs": 2,
 		"peers": [
+			982,
 			983,
-			984,
 			254,
 			255,
-			985
+			984
 		],
 		"variants": [],
 		"text": "The Historic Graves crowdsourcing project: 10 years transcribing Irish history Crowdsourcing, Ireland, Cultural Heritage, Public History, Collaborative platforms undefined Evolución y escenario actual de las Humanidades Digitales en España Spain, Digital Humanities, digital infrastructures undefined ",
-		"id": 983
+		"id": 982
 	},
 	{
 		"name": "John Tierney",
 		"docs": 1,
 		"peers": [
-			983,
-			984
+			982,
+			983
 		],
 		"variants": [],
 		"text": "The Historic Graves crowdsourcing project: 10 years transcribing Irish history Crowdsourcing, Ireland, Cultural Heritage, Public History, Collaborative platforms undefined ",
-		"id": 984
+		"id": 983
 	},
 	{
 		"name": "Aroa Rabadan",
@@ -14097,12 +14087,12 @@
 		"peers": [
 			254,
 			255,
-			983,
-			985
+			982,
+			984
 		],
 		"variants": [],
 		"text": "Evolución y escenario actual de las Humanidades Digitales en España Spain, Digital Humanities, digital infrastructures undefined ",
-		"id": 985
+		"id": 984
 	},
 	{
 		"name": "Peer Trilcke",
@@ -14110,13 +14100,13 @@
 		"peers": [
 			69,
 			783,
+			985,
 			986,
-			987,
-			988
+			987
 		],
 		"variants": [],
 		"text": "Opening the Stage -- A Quantitative Look at Stage Directions in German Drama drama, stage directions, history of literature, corpus exploration undefined ",
-		"id": 986
+		"id": 985
 	},
 	{
 		"name": "Christopher Kittel",
@@ -14124,13 +14114,13 @@
 		"peers": [
 			69,
 			783,
+			985,
 			986,
-			987,
-			988
+			987
 		],
 		"variants": [],
 		"text": "Opening the Stage -- A Quantitative Look at Stage Directions in German Drama drama, stage directions, history of literature, corpus exploration undefined ",
-		"id": 987
+		"id": 986
 	},
 	{
 		"name": "Daria Maximova",
@@ -14138,684 +14128,684 @@
 		"peers": [
 			69,
 			783,
+			985,
 			986,
-			987,
-			988
+			987
 		],
 		"variants": [],
 		"text": "Opening the Stage -- A Quantitative Look at Stage Directions in German Drama drama, stage directions, history of literature, corpus exploration undefined ",
-		"id": 988
+		"id": 987
 	},
 	{
 		"name": "Lik Hang Tsui",
 		"docs": 2,
 		"peers": [
-			989
+			988
 		],
 		"variants": [],
 		"text": "Digital Approaches to Name Disambiguation of Chinese Historical Figures Name disambiguation, Chinese history, Biographical data, Gazetteers, Personal names undefined Data-Driven In-class Activities for Chinese History Pedagogy Chinese history pedagogy, digital humanities pedagogy, classroom activities, Chinese undefined ",
-		"id": 989
+		"id": 988
 	},
 	{
 		"name": "Kieran Ramnarine",
 		"docs": 1,
 		"peers": [
 			372,
-			990
+			989
 		],
 		"variants": [],
 		"text": "Datasets of Criminal Faces Within and Under Facial Recognition Software (FRS) From a Digital Humanities Perspective  machine learning, facial recognition, computer vision, digital literacy, data ethics undefined ",
-		"id": 990
+		"id": 989
 	},
 	{
 		"name": "Rostislav Tumanov",
 		"docs": 1,
 		"peers": [
 			882,
+			990,
 			991,
-			992,
-			993
+			992
 		],
 		"variants": [],
 		"text": "Modeling possible stories. A digital edition of Giovanni Domenico Tiepolo's Divertimento per li Regazzi  digital art history, CIDOC, digital edition, Tiepolo undefined ",
-		"id": 991
+		"id": 990
 	},
 	{
 		"name": "Alina Feldmann",
 		"docs": 1,
 		"peers": [
 			882,
+			990,
 			991,
-			992,
-			993
+			992
 		],
 		"variants": [],
 		"text": "Modeling possible stories. A digital edition of Giovanni Domenico Tiepolo's Divertimento per li Regazzi  digital art history, CIDOC, digital edition, Tiepolo undefined ",
-		"id": 992
+		"id": 991
 	},
 	{
 		"name": "Barbara Koller",
 		"docs": 1,
 		"peers": [
 			882,
+			990,
 			991,
-			992,
-			993
+			992
 		],
 		"variants": [],
 		"text": "Modeling possible stories. A digital edition of Giovanni Domenico Tiepolo's Divertimento per li Regazzi  digital art history, CIDOC, digital edition, Tiepolo undefined ",
-		"id": 993
+		"id": 992
 	},
 	{
 		"name": "Serdar Tuncer",
 		"docs": 2,
 		"peers": [
-			994,
-			995
+			993,
+			994
+		],
+		"variants": [],
+		"text": "Does Culture Still Matter? A Cross-Cultural Perspective on Human-Robot Interaction and Artificial Intelligence Artificial Intelligence (AI), Human Robot Interaction (HRI), Negative Attitudes Towards Robots Scale (NARS), 6D Cultural Model, Cross-Cultural Perspective undefined The Future of Storytelling in the Age of AI and Posthumanism Artificial Intelligence, Storytelling, Posthuman, Posthumanism, Anthropocene undefined ",
+		"id": 993
+	},
+	{
+		"name": "Boulou Ebanda De B'Beri",
+		"docs": 2,
+		"peers": [
+			993,
+			994
 		],
 		"variants": [],
 		"text": "Does Culture Still Matter? A Cross-Cultural Perspective on Human-Robot Interaction and Artificial Intelligence Artificial Intelligence (AI), Human Robot Interaction (HRI), Negative Attitudes Towards Robots Scale (NARS), 6D Cultural Model, Cross-Cultural Perspective undefined The Future of Storytelling in the Age of AI and Posthumanism Artificial Intelligence, Storytelling, Posthuman, Posthumanism, Anthropocene undefined ",
 		"id": 994
 	},
 	{
-		"name": "Boulou Ebanda De B'Beri",
-		"docs": 2,
-		"peers": [
-			994,
-			995
-		],
-		"variants": [],
-		"text": "Does Culture Still Matter? A Cross-Cultural Perspective on Human-Robot Interaction and Artificial Intelligence Artificial Intelligence (AI), Human Robot Interaction (HRI), Negative Attitudes Towards Robots Scale (NARS), 6D Cultural Model, Cross-Cultural Perspective undefined The Future of Storytelling in the Age of AI and Posthumanism Artificial Intelligence, Storytelling, Posthuman, Posthumanism, Anthropocene undefined ",
-		"id": 995
-	},
-	{
 		"name": "Charlotte Tupman",
 		"docs": 1,
 		"peers": [
+			995,
 			996,
-			997,
-			998
+			997
+		],
+		"variants": [],
+		"text": "Reconsidering the Roman Workshop: using machine learning to examine the processes behind inscribed texts machine learning, computer science, neural networks, epigraphy, digital classics undefined ",
+		"id": 995
+	},
+	{
+		"name": "Jacqueline Christmas",
+		"docs": 1,
+		"peers": [
+			995,
+			996,
+			997
 		],
 		"variants": [],
 		"text": "Reconsidering the Roman Workshop: using machine learning to examine the processes behind inscribed texts machine learning, computer science, neural networks, epigraphy, digital classics undefined ",
 		"id": 996
 	},
 	{
-		"name": "Jacqueline Christmas",
+		"name": "Dmitry Kangin",
 		"docs": 1,
 		"peers": [
+			995,
 			996,
-			997,
-			998
+			997
 		],
 		"variants": [],
 		"text": "Reconsidering the Roman Workshop: using machine learning to examine the processes behind inscribed texts machine learning, computer science, neural networks, epigraphy, digital classics undefined ",
 		"id": 997
 	},
 	{
-		"name": "Dmitry Kangin",
-		"docs": 1,
-		"peers": [
-			996,
-			997,
-			998
-		],
-		"variants": [],
-		"text": "Reconsidering the Roman Workshop: using machine learning to examine the processes behind inscribed texts machine learning, computer science, neural networks, epigraphy, digital classics undefined ",
-		"id": 998
-	},
-	{
 		"name": "Robert Tweheyo",
 		"docs": 1,
 		"peers": [
-			999
+			998
 		],
 		"variants": [],
 		"text": "A digital assessment tool for monitoring and planning food security interventions in rural households of Uganda  Digital assessment tool, food security, prevalence of food insecurity, intervention schemata, design sciences undefined ",
-		"id": 999
+		"id": 998
 	},
 	{
 		"name": "Julia DeWall Uhr",
 		"docs": 2,
 		"peers": [
-			1000
+			999
 		],
 		"variants": [],
 		"text": "Promoting Library Accessibility and Outreach with Special Collections in Virtual Reality VR, library, fairy-tales undefined Explore Plato’s Cave in Virtual Reality VR, Plato, Philosophy undefined ",
-		"id": 1000
+		"id": 999
 	},
 	{
 		"name": "Michael Ullyot",
 		"docs": 1,
 		"peers": [
-			1001,
-			1002
+			1000,
+			1001
+		],
+		"variants": [],
+		"text": "Machine Learning for Literary Criticism: Analyzing Forms, Genres, and Figurative Language sonnets, poetics, genre, neural networks, topic modelling undefined ",
+		"id": 1000
+	},
+	{
+		"name": "Adam James Bradley",
+		"docs": 1,
+		"peers": [
+			1000,
+			1001
 		],
 		"variants": [],
 		"text": "Machine Learning for Literary Criticism: Analyzing Forms, Genres, and Figurative Language sonnets, poetics, genre, neural networks, topic modelling undefined ",
 		"id": 1001
 	},
 	{
-		"name": "Adam James Bradley",
-		"docs": 1,
-		"peers": [
-			1001,
-			1002
-		],
-		"variants": [],
-		"text": "Machine Learning for Literary Criticism: Analyzing Forms, Genres, and Figurative Language sonnets, poetics, genre, neural networks, topic modelling undefined ",
-		"id": 1002
-	},
-	{
 		"name": "Eugenia Ustinova",
 		"docs": 1,
 		"peers": [
-			1003
+			1002
 		],
 		"variants": [],
 		"text": "The Hierarchy of Characters: Quantitative Dominance Relations in Russian Drama Network analysis, drama, digital literary studies undefined ",
-		"id": 1003
+		"id": 1002
 	},
 	{
 		"name": "Leon van Wissen",
 		"docs": 2,
 		"peers": [
+			1003,
 			1004,
 			1005,
 			1006,
 			1007,
 			1008,
-			1009,
-			1010
+			1009
 		],
 		"variants": [],
 		"text": "The Montias Case: an experiment with data reconciliation and provenance between research and cultural heritage institutions Reconciliation and Disambiguation of Linked Open Data, Provenance, Named Entity Recognition in Archival Sources, Cooperation public and research institutions, Dutch Golden Age undefined Serving the city: an automatic information extraction for mapping Amsterdam nightlife (1820-1940) Semi-structured Text, Entity Reconstruction, Nightlife, Urban History, Pleasurescapes undefined ",
-		"id": 1004
+		"id": 1003
 	},
 	{
 		"name": "Chiara Latronico",
 		"docs": 1,
 		"peers": [
+			1003,
 			1004,
 			1005,
-			1006,
-			1007
+			1006
+		],
+		"variants": [],
+		"text": "The Montias Case: an experiment with data reconciliation and provenance between research and cultural heritage institutions Reconciliation and Disambiguation of Linked Open Data, Provenance, Named Entity Recognition in Archival Sources, Cooperation public and research institutions, Dutch Golden Age undefined ",
+		"id": 1004
+	},
+	{
+		"name": "Sandra van Ginhoven",
+		"docs": 1,
+		"peers": [
+			1003,
+			1004,
+			1005,
+			1006
 		],
 		"variants": [],
 		"text": "The Montias Case: an experiment with data reconciliation and provenance between research and cultural heritage institutions Reconciliation and Disambiguation of Linked Open Data, Provenance, Named Entity Recognition in Archival Sources, Cooperation public and research institutions, Dutch Golden Age undefined ",
 		"id": 1005
 	},
 	{
-		"name": "Sandra van Ginhoven",
+		"name": "Veruska Zamborlini",
 		"docs": 1,
 		"peers": [
+			1003,
 			1004,
 			1005,
-			1006,
-			1007
+			1006
 		],
 		"variants": [],
 		"text": "The Montias Case: an experiment with data reconciliation and provenance between research and cultural heritage institutions Reconciliation and Disambiguation of Linked Open Data, Provenance, Named Entity Recognition in Archival Sources, Cooperation public and research institutions, Dutch Golden Age undefined ",
 		"id": 1006
 	},
 	{
-		"name": "Veruska Zamborlini",
-		"docs": 1,
-		"peers": [
-			1004,
-			1005,
-			1006,
-			1007
-		],
-		"variants": [],
-		"text": "The Montias Case: an experiment with data reconciliation and provenance between research and cultural heritage institutions Reconciliation and Disambiguation of Linked Open Data, Provenance, Named Entity Recognition in Archival Sources, Cooperation public and research institutions, Dutch Golden Age undefined ",
-		"id": 1007
-	},
-	{
 		"name": "Claartje Rasterhoff",
 		"docs": 1,
 		"peers": [
-			1004,
+			1003,
+			1007,
 			1008,
-			1009,
-			1010
+			1009
+		],
+		"variants": [],
+		"text": "Serving the city: an automatic information extraction for mapping Amsterdam nightlife (1820-1940) Semi-structured Text, Entity Reconstruction, Nightlife, Urban History, Pleasurescapes undefined ",
+		"id": 1007
+	},
+	{
+		"name": "Thunnis van Oort",
+		"docs": 1,
+		"peers": [
+			1003,
+			1007,
+			1008,
+			1009
 		],
 		"variants": [],
 		"text": "Serving the city: an automatic information extraction for mapping Amsterdam nightlife (1820-1940) Semi-structured Text, Entity Reconstruction, Nightlife, Urban History, Pleasurescapes undefined ",
 		"id": 1008
 	},
 	{
-		"name": "Thunnis van Oort",
+		"name": "Ivan Kisjes",
 		"docs": 1,
 		"peers": [
-			1004,
+			1003,
+			1007,
 			1008,
-			1009,
-			1010
+			1009
 		],
 		"variants": [],
 		"text": "Serving the city: an automatic information extraction for mapping Amsterdam nightlife (1820-1940) Semi-structured Text, Entity Reconstruction, Nightlife, Urban History, Pleasurescapes undefined ",
 		"id": 1009
 	},
 	{
-		"name": "Ivan Kisjes",
-		"docs": 1,
-		"peers": [
-			1004,
-			1008,
-			1009,
-			1010
-		],
-		"variants": [],
-		"text": "Serving the city: an automatic information extraction for mapping Amsterdam nightlife (1820-1940) Semi-structured Text, Entity Reconstruction, Nightlife, Urban History, Pleasurescapes undefined ",
-		"id": 1010
-	},
-	{
 		"name": "Menno van Zaanen",
 		"docs": 1,
 		"peers": [
 			406,
+			1010,
 			1011,
-			1012,
-			1013
+			1012
 		],
 		"variants": [],
 		"text": "Identifying relations between characters in Afrikaans, Tshivenḓa, and Xitsonga book  African languages, literary analysis, named entity recognition, network analysis undefined ",
-		"id": 1011
+		"id": 1010
 	},
 	{
 		"name": "Phathuthsedzo Ramukhadi",
 		"docs": 1,
 		"peers": [
 			406,
+			1010,
 			1011,
-			1012,
-			1013
+			1012
 		],
 		"variants": [],
 		"text": "Identifying relations between characters in Afrikaans, Tshivenḓa, and Xitsonga book  African languages, literary analysis, named entity recognition, network analysis undefined ",
-		"id": 1012
+		"id": 1011
 	},
 	{
 		"name": "Respect Mlambo",
 		"docs": 1,
 		"peers": [
 			406,
+			1010,
 			1011,
-			1012,
-			1013
+			1012
 		],
 		"variants": [],
 		"text": "Identifying relations between characters in Afrikaans, Tshivenḓa, and Xitsonga book  African languages, literary analysis, named entity recognition, network analysis undefined ",
-		"id": 1013
+		"id": 1012
 	},
 	{
 		"name": "Raymond A. Mar",
 		"docs": 1,
 		"peers": [
 			708,
+			1013,
 			1014,
 			1015,
 			1016,
-			1017,
-			1018
+			1017
 		],
 		"variants": [],
 		"text": "Features of Timelessness: Intermediate Report on a Quest for Stylistic Features that Mark Literary Canonicity stylometry, literature, features, canonicity undefined ",
-		"id": 1014
+		"id": 1013
 	},
 	{
 		"name": "Emily Temple",
 		"docs": 1,
 		"peers": [
 			708,
+			1013,
 			1014,
 			1015,
 			1016,
-			1017,
-			1018
+			1017
 		],
 		"variants": [],
 		"text": "Features of Timelessness: Intermediate Report on a Quest for Stylistic Features that Mark Literary Canonicity stylometry, literature, features, canonicity undefined ",
-		"id": 1015
+		"id": 1014
 	},
 	{
 		"name": "Isabel Bowman",
 		"docs": 1,
 		"peers": [
 			708,
+			1013,
 			1014,
 			1015,
 			1016,
-			1017,
-			1018
+			1017
 		],
 		"variants": [],
 		"text": "Features of Timelessness: Intermediate Report on a Quest for Stylistic Features that Mark Literary Canonicity stylometry, literature, features, canonicity undefined ",
-		"id": 1016
+		"id": 1015
 	},
 	{
 		"name": "Farzaneh Heidari",
 		"docs": 1,
 		"peers": [
 			708,
+			1013,
 			1014,
 			1015,
 			1016,
-			1017,
-			1018
+			1017
 		],
 		"variants": [],
 		"text": "Features of Timelessness: Intermediate Report on a Quest for Stylistic Features that Mark Literary Canonicity stylometry, literature, features, canonicity undefined ",
-		"id": 1017
+		"id": 1016
 	},
 	{
 		"name": "Ahn T.P. Nguyen",
 		"docs": 1,
 		"peers": [
 			708,
+			1013,
 			1014,
 			1015,
 			1016,
-			1017,
-			1018
+			1017
 		],
 		"variants": [],
 		"text": "Features of Timelessness: Intermediate Report on a Quest for Stylistic Features that Mark Literary Canonicity stylometry, literature, features, canonicity undefined ",
-		"id": 1018
+		"id": 1017
 	},
 	{
 		"name": "Tomas Vancisin",
 		"docs": 1,
 		"peers": [
 			13,
-			1019,
-			1020
+			1018,
+			1019
 		],
 		"variants": [],
 		"text": "Illuminating Past Labor: Making Transformation Processes of Historical Documents Visible Information Visualization, Data Transformation, Process Visualization, Historical University Records undefined ",
-		"id": 1019
+		"id": 1018
 	},
 	{
 		"name": "Mary Orr",
 		"docs": 1,
 		"peers": [
 			13,
-			1019,
-			1020
+			1018,
+			1019
 		],
 		"variants": [],
 		"text": "Illuminating Past Labor: Making Transformation Processes of Historical Documents Visible Information Visualization, Data Transformation, Process Visualization, Historical University Records undefined ",
-		"id": 1020
+		"id": 1019
 	},
 	{
 		"name": "Cristina Vertan",
 		"docs": 1,
 		"peers": [
-			1021,
-			1022
+			1020,
+			1021
+		],
+		"variants": [],
+		"text": "Investigation of reliability in public history documents from 18th century vagueness, uncertainty, ontology, digital history undefined ",
+		"id": 1020
+	},
+	{
+		"name": "Walther v. Hahn",
+		"docs": 1,
+		"peers": [
+			1020,
+			1021
 		],
 		"variants": [],
 		"text": "Investigation of reliability in public history documents from 18th century vagueness, uncertainty, ontology, digital history undefined ",
 		"id": 1021
 	},
 	{
-		"name": "Walther v. Hahn",
-		"docs": 1,
-		"peers": [
-			1021,
-			1022
-		],
-		"variants": [],
-		"text": "Investigation of reliability in public history documents from 18th century vagueness, uncertainty, ontology, digital history undefined ",
-		"id": 1022
-	},
-	{
 		"name": "Paul August Vierthaler",
 		"docs": 1,
 		"peers": [
-			1023
+			1022
 		],
 		"variants": [],
 		"text": "Algorithmically Mapping Historical Fascination in Late Imperial Chinese Literature china, history, literature, bibliography, text mining undefined ",
-		"id": 1023
+		"id": 1022
 	},
 	{
 		"name": "Scott Trudell",
 		"docs": 1,
 		"peers": [
 			272,
-			1024,
-			1025
+			1023,
+			1024
 		],
 		"variants": [],
 		"text": "Variorum Editions Across Text and Music: the Early Modern Songscapes Project scholarly editing, data modeling, text encoding, music encoding, performance undefined ",
-		"id": 1024
+		"id": 1023
 	},
 	{
 		"name": "Sarah Williams",
 		"docs": 1,
 		"peers": [
 			272,
-			1024,
-			1025
+			1023,
+			1024
 		],
 		"variants": [],
 		"text": "Variorum Editions Across Text and Music: the Early Modern Songscapes Project scholarly editing, data modeling, text encoding, music encoding, performance undefined ",
-		"id": 1025
+		"id": 1024
 	},
 	{
 		"name": "Francois Vignale",
 		"docs": 2,
 		"peers": [
 			33,
+			1025,
 			1026,
 			1027,
 			1028,
-			1029,
-			1030
+			1029
 		],
 		"variants": [],
 		"text": " THE READING EXPERIENCES ONTOLOGY (REO): REUSING AND EXTENDING CIDOC CRM  Ontology management, CIDOC-CRM, digital heritage, history of reading undefined  INTEGRATING AN ANNOTATION TOOL INTO A VALIDATION PROCESS: THE CASE OF READ-IT. annotation, interface, UX design undefined ",
-		"id": 1026
+		"id": 1025
 	},
 	{
 		"name": "Guillaume Gravier",
 		"docs": 1,
 		"peers": [
 			33,
-			1026,
-			1027
+			1025,
+			1026
 		],
 		"variants": [],
 		"text": " THE READING EXPERIENCES ONTOLOGY (REO): REUSING AND EXTENDING CIDOC CRM  Ontology management, CIDOC-CRM, digital heritage, history of reading undefined ",
-		"id": 1027
+		"id": 1026
 	},
 	{
 		"name": "Alex Hebing",
 		"docs": 1,
 		"peers": [
-			1026,
+			1025,
+			1027,
 			1028,
-			1029,
-			1030
+			1029
+		],
+		"variants": [],
+		"text": " INTEGRATING AN ANNOTATION TOOL INTO A VALIDATION PROCESS: THE CASE OF READ-IT. annotation, interface, UX design undefined ",
+		"id": 1027
+	},
+	{
+		"name": "Julian Gonggrijp",
+		"docs": 1,
+		"peers": [
+			1025,
+			1027,
+			1028,
+			1029
 		],
 		"variants": [],
 		"text": " INTEGRATING AN ANNOTATION TOOL INTO A VALIDATION PROCESS: THE CASE OF READ-IT. annotation, interface, UX design undefined ",
 		"id": 1028
 	},
 	{
-		"name": "Julian Gonggrijp",
+		"name": "Quentin Morcrette",
 		"docs": 1,
 		"peers": [
-			1026,
+			1025,
+			1027,
 			1028,
-			1029,
-			1030
+			1029
 		],
 		"variants": [],
 		"text": " INTEGRATING AN ANNOTATION TOOL INTO A VALIDATION PROCESS: THE CASE OF READ-IT. annotation, interface, UX design undefined ",
 		"id": 1029
 	},
 	{
-		"name": "Quentin Morcrette",
-		"docs": 1,
-		"peers": [
-			1026,
-			1028,
-			1029,
-			1030
-		],
-		"variants": [],
-		"text": " INTEGRATING AN ANNOTATION TOOL INTO A VALIDATION PROCESS: THE CASE OF READ-IT. annotation, interface, UX design undefined ",
-		"id": 1030
-	},
-	{
 		"name": "Jaap Verheul",
 		"docs": 1,
 		"peers": [
 			47,
-			1031
+			1030
 		],
 		"variants": [],
 		"text": "The GeoNewsMiner: An interactive spatial humanities tool to visualize geographical references in historical newspapers Spatial Humanities, diasporic newspapers, transatlantic migration, NER, machine learning undefined ",
-		"id": 1031
+		"id": 1030
 	},
 	{
 		"name": "Thorsten Vitt",
 		"docs": 1,
 		"peers": [
-			1032
+			1031
 		],
 		"variants": [],
 		"text": "Graph models for the genesis of Goethe’s Faust digital edition, graphs, chronology undefined ",
-		"id": 1032
+		"id": 1031
 	},
 	{
 		"name": "Zach Vowell",
 		"docs": 1,
 		"peers": [
+			1032,
 			1033,
 			1034,
 			1035,
 			1036,
-			1037,
-			1038
+			1037
+		],
+		"variants": [],
+		"text": "Morgan Papers: Exploring the Correspondence of California’s First Female Architect Julia Morgan undefined ",
+		"id": 1032
+	},
+	{
+		"name": "Ethan Kusters",
+		"docs": 1,
+		"peers": [
+			1032,
+			1033,
+			1034,
+			1035,
+			1036,
+			1037
 		],
 		"variants": [],
 		"text": "Morgan Papers: Exploring the Correspondence of California’s First Female Architect Julia Morgan undefined ",
 		"id": 1033
 	},
 	{
-		"name": "Ethan Kusters",
+		"name": "Luca Soares",
 		"docs": 1,
 		"peers": [
+			1032,
 			1033,
 			1034,
 			1035,
 			1036,
-			1037,
-			1038
+			1037
 		],
 		"variants": [],
 		"text": "Morgan Papers: Exploring the Correspondence of California’s First Female Architect Julia Morgan undefined ",
 		"id": 1034
 	},
 	{
-		"name": "Luca Soares",
+		"name": "Samuel Verkruyse",
 		"docs": 1,
 		"peers": [
+			1032,
 			1033,
 			1034,
 			1035,
 			1036,
-			1037,
-			1038
+			1037
 		],
 		"variants": [],
 		"text": "Morgan Papers: Exploring the Correspondence of California’s First Female Architect Julia Morgan undefined ",
 		"id": 1035
 	},
 	{
-		"name": "Samuel Verkruyse",
+		"name": "Joey Wilson",
 		"docs": 1,
 		"peers": [
+			1032,
 			1033,
 			1034,
 			1035,
 			1036,
-			1037,
-			1038
+			1037
 		],
 		"variants": [],
 		"text": "Morgan Papers: Exploring the Correspondence of California’s First Female Architect Julia Morgan undefined ",
 		"id": 1036
 	},
 	{
-		"name": "Joey Wilson",
+		"name": "Foaad Khosmood",
 		"docs": 1,
 		"peers": [
+			1032,
 			1033,
 			1034,
 			1035,
 			1036,
-			1037,
-			1038
+			1037
 		],
 		"variants": [],
 		"text": "Morgan Papers: Exploring the Correspondence of California’s First Female Architect Julia Morgan undefined ",
 		"id": 1037
 	},
 	{
-		"name": "Foaad Khosmood",
-		"docs": 1,
-		"peers": [
-			1033,
-			1034,
-			1035,
-			1036,
-			1037,
-			1038
-		],
-		"variants": [],
-		"text": "Morgan Papers: Exploring the Correspondence of California’s First Female Architect Julia Morgan undefined ",
-		"id": 1038
-	},
-	{
 		"name": "Katherine L. Walter",
 		"docs": 1,
 		"peers": [
+			1038,
 			1039,
-			1040,
-			1041
+			1040
+		],
+		"variants": [],
+		"text": "Sustaining Digital Humanities Centers, Labs and Institutes Centers, Labs, Institutes, Sustainability undefined ",
+		"id": 1038
+	},
+	{
+		"name": "Paul Arthur",
+		"docs": 1,
+		"peers": [
+			1038,
+			1039,
+			1040
 		],
 		"variants": [],
 		"text": "Sustaining Digital Humanities Centers, Labs and Institutes Centers, Labs, Institutes, Sustainability undefined ",
 		"id": 1039
 	},
 	{
-		"name": "Paul Arthur",
+		"name": "Carrie Heitman",
 		"docs": 1,
 		"peers": [
+			1038,
 			1039,
-			1040,
-			1041
+			1040
 		],
 		"variants": [],
 		"text": "Sustaining Digital Humanities Centers, Labs and Institutes Centers, Labs, Institutes, Sustainability undefined ",
 		"id": 1040
-	},
-	{
-		"name": "Carrie Heitman",
-		"docs": 1,
-		"peers": [
-			1039,
-			1040,
-			1041
-		],
-		"variants": [],
-		"text": "Sustaining Digital Humanities Centers, Labs and Institutes Centers, Labs, Institutes, Sustainability undefined ",
-		"id": 1041
 	},
 	{
 		"name": "Jiayun Wang",
@@ -14824,12 +14814,12 @@
 			600,
 			601,
 			602,
-			1042,
-			1043
+			1041,
+			1042
 		],
 		"variants": [],
 		"text": "Making Ukiyo-e Easier to Discover: A Recommender System for Digital Archives Digital Archive, Ukiyo-e, Recommender System undefined ",
-		"id": 1042
+		"id": 1041
 	},
 	{
 		"name": "Kyoji Kawagoe",
@@ -14838,311 +14828,311 @@
 			600,
 			601,
 			602,
-			1042,
-			1043
+			1041,
+			1042
 		],
 		"variants": [],
 		"text": "Making Ukiyo-e Easier to Discover: A Recommender System for Digital Archives Digital Archive, Ukiyo-e, Recommender System undefined ",
-		"id": 1043
+		"id": 1042
 	},
 	{
 		"name": "Jun Wang",
 		"docs": 2,
 		"peers": [
+			1043,
 			1044,
 			1045,
 			1046,
 			1047,
 			1048,
 			1049,
-			1050,
-			1051
+			1050
 		],
 		"variants": [],
 		"text": "Can Digital Humanities Help in Finding Research Questions? A Comparative Analysis of the Attitudes Towards Neo-Confucianism Study of the Scholars Today and 300 Years Ago Neo-Confucianism, Comparative Analysis, Network Analysis undefined A Visualization-Assisted Reading Systemfor a Neo-Confucian Canon visualization, Song-Yuan Xue’an, knowledge graph, Chinese classic literature undefined ",
-		"id": 1044
+		"id": 1043
 	},
 	{
 		"name": "Liyuan Zhang",
 		"docs": 1,
 		"peers": [
+			1043,
 			1044,
-			1045,
-			1046
+			1045
+		],
+		"variants": [],
+		"text": "Can Digital Humanities Help in Finding Research Questions? A Comparative Analysis of the Attitudes Towards Neo-Confucianism Study of the Scholars Today and 300 Years Ago Neo-Confucianism, Comparative Analysis, Network Analysis undefined ",
+		"id": 1044
+	},
+	{
+		"name": "Haici Yang",
+		"docs": 1,
+		"peers": [
+			1043,
+			1044,
+			1045
 		],
 		"variants": [],
 		"text": "Can Digital Humanities Help in Finding Research Questions? A Comparative Analysis of the Attitudes Towards Neo-Confucianism Study of the Scholars Today and 300 Years Ago Neo-Confucianism, Comparative Analysis, Network Analysis undefined ",
 		"id": 1045
 	},
 	{
-		"name": "Haici Yang",
-		"docs": 1,
-		"peers": [
-			1044,
-			1045,
-			1046
-		],
-		"variants": [],
-		"text": "Can Digital Humanities Help in Finding Research Questions? A Comparative Analysis of the Attitudes Towards Neo-Confucianism Study of the Scholars Today and 300 Years Ago Neo-Confucianism, Comparative Analysis, Network Analysis undefined ",
-		"id": 1046
-	},
-	{
 		"name": "Xiaoyu Li",
 		"docs": 1,
 		"peers": [
-			1044,
+			1043,
+			1046,
 			1047,
 			1048,
 			1049,
-			1050,
-			1051
+			1050
+		],
+		"variants": [],
+		"text": "A Visualization-Assisted Reading Systemfor a Neo-Confucian Canon visualization, Song-Yuan Xue’an, knowledge graph, Chinese classic literature undefined ",
+		"id": 1046
+	},
+	{
+		"name": "Enhua Bian",
+		"docs": 1,
+		"peers": [
+			1043,
+			1046,
+			1047,
+			1048,
+			1049,
+			1050
 		],
 		"variants": [],
 		"text": "A Visualization-Assisted Reading Systemfor a Neo-Confucian Canon visualization, Song-Yuan Xue’an, knowledge graph, Chinese classic literature undefined ",
 		"id": 1047
 	},
 	{
-		"name": "Enhua Bian",
+		"name": "Linxu Wang",
 		"docs": 1,
 		"peers": [
-			1044,
+			1043,
+			1046,
 			1047,
 			1048,
 			1049,
-			1050,
-			1051
+			1050
 		],
 		"variants": [],
 		"text": "A Visualization-Assisted Reading Systemfor a Neo-Confucian Canon visualization, Song-Yuan Xue’an, knowledge graph, Chinese classic literature undefined ",
 		"id": 1048
 	},
 	{
-		"name": "Linxu Wang",
+		"name": "Shuran Liu",
 		"docs": 1,
 		"peers": [
-			1044,
+			1043,
+			1046,
 			1047,
 			1048,
 			1049,
-			1050,
-			1051
+			1050
 		],
 		"variants": [],
 		"text": "A Visualization-Assisted Reading Systemfor a Neo-Confucian Canon visualization, Song-Yuan Xue’an, knowledge graph, Chinese classic literature undefined ",
 		"id": 1049
 	},
 	{
-		"name": "Shuran Liu",
+		"name": "Nuo Chen",
 		"docs": 1,
 		"peers": [
-			1044,
+			1043,
+			1046,
 			1047,
 			1048,
 			1049,
-			1050,
-			1051
+			1050
 		],
 		"variants": [],
 		"text": "A Visualization-Assisted Reading Systemfor a Neo-Confucian Canon visualization, Song-Yuan Xue’an, knowledge graph, Chinese classic literature undefined ",
 		"id": 1050
 	},
 	{
-		"name": "Nuo Chen",
-		"docs": 1,
-		"peers": [
-			1044,
-			1047,
-			1048,
-			1049,
-			1050,
-			1051
-		],
-		"variants": [],
-		"text": "A Visualization-Assisted Reading Systemfor a Neo-Confucian Canon visualization, Song-Yuan Xue’an, knowledge graph, Chinese classic literature undefined ",
-		"id": 1051
-	},
-	{
 		"name": "Sean Wang",
 		"docs": 2,
 		"peers": [
-			1052,
+			1051,
 			612,
-			1085
+			1084
 		],
 		"variants": [],
 		"text": "RISE and SHINE: Introduction to an API-based e-infrastructure for interoperable textual resources and research tools API, research infrastructure, research software, digital research tool undefined Information extraction across textual corpora: semi-automatic text-tagging workflow with Chinese local gazetteers text-tagging, information extraction, local gazetteers, Chinese history undefined ",
-		"id": 1052
+		"id": 1051
 	},
 	{
 		"name": "Jada Emily Watson",
 		"docs": 1,
 		"peers": [
-			1053
+			1052
 		],
 		"variants": [],
 		"text": "From Public Humanities to Social Remembering: Big Data and the Digital Redlining of Women in Country Music Culture  social remembering, country music, gender representation, big data, digital redlining undefined ",
-		"id": 1053
+		"id": 1052
 	},
 	{
 		"name": "Maartje Weenink",
 		"docs": 1,
 		"peers": [
-			1054
+			1053
 		],
 		"variants": [],
 		"text": "Who's Afraid of the Big Bad ?: Researching Trends in the Early Gothic Novel using Word Embeddings word embeddings, gothic, genre formation, sentiment analysis undefined ",
-		"id": 1054
+		"id": 1053
 	},
 	{
 		"name": "Jingzhu Wei",
 		"docs": 1,
 		"peers": [
-			1055,
-			1056
+			1054,
+			1055
+		],
+		"variants": [],
+		"text": "Conceptual Analysis as Thickening: Influence as an Example conceptual analysis, interpretive methods, digital humanities, method undefined ",
+		"id": 1054
+	},
+	{
+		"name": "Allen Renear",
+		"docs": 1,
+		"peers": [
+			1054,
+			1055
 		],
 		"variants": [],
 		"text": "Conceptual Analysis as Thickening: Influence as an Example conceptual analysis, interpretive methods, digital humanities, method undefined ",
 		"id": 1055
 	},
 	{
-		"name": "Allen Renear",
-		"docs": 1,
-		"peers": [
-			1055,
-			1056
-		],
-		"variants": [],
-		"text": "Conceptual Analysis as Thickening: Influence as an Example conceptual analysis, interpretive methods, digital humanities, method undefined ",
-		"id": 1056
-	},
-	{
 		"name": "Henry Alexander Wermer-Colan",
 		"docs": 1,
 		"peers": [
-			1057,
-			1058
+			1056,
+			1057
+		],
+		"variants": [],
+		"text": "Prototyping the SF Nexus: Collaborative Models for Digitizing and Curating Speculative Fiction Collections as Data Science Fiction, Digital Collections, Cultural Analytics undefined ",
+		"id": 1056
+	},
+	{
+		"name": "Rikk Mulligan",
+		"docs": 1,
+		"peers": [
+			1056,
+			1057
 		],
 		"variants": [],
 		"text": "Prototyping the SF Nexus: Collaborative Models for Digitizing and Curating Speculative Fiction Collections as Data Science Fiction, Digital Collections, Cultural Analytics undefined ",
 		"id": 1057
 	},
 	{
-		"name": "Rikk Mulligan",
-		"docs": 1,
-		"peers": [
-			1057,
-			1058
-		],
-		"variants": [],
-		"text": "Prototyping the SF Nexus: Collaborative Models for Digitizing and Curating Speculative Fiction Collections as Data Science Fiction, Digital Collections, Cultural Analytics undefined ",
-		"id": 1058
-	},
-	{
 		"name": "Leon Wessels",
 		"docs": 2,
 		"peers": [
-			1059,
+			1058,
 			69,
 			402,
 			407,
-			1070,
-			1071
+			1069,
+			1070
 		],
 		"variants": [],
 		"text": "CLARIN for DH Scholars CLARIN, research infrastructure, fair principles, language resources undefined DH Teaching Activities as a Resource for Research: Accessing the DH Course Registry Data via an API API, DH teaching, data access, data publishing undefined ",
-		"id": 1059
+		"id": 1058
 	},
 	{
 		"name": "David Stewart White",
 		"docs": 1,
 		"peers": [
-			1060
+			1059
 		],
 		"variants": [],
 		"text": "Encoding Belief: why digital has become the new location of salvation and destruction. digital, belief, religion, sacred undefined ",
-		"id": 1060
+		"id": 1059
 	},
 	{
 		"name": "Olivia Wikle",
 		"docs": 2,
 		"peers": [
+			1060,
 			1061,
-			1062,
-			1063
+			1062
+		],
+		"variants": [],
+		"text": "Creating Digital Collections with Minimal Infrastructure: Hands On with CollectionBuilder for Teaching and Exhibits static web, digital collections, GitHub Pages, metadata undefined CollectionBuilder: Using Static Web Technologies to Create Digital Collections and Teach DH Principles static web, Jekyll, digital collections, digital scholarship undefined ",
+		"id": 1060
+	},
+	{
+		"name": "Evan Williamson",
+		"docs": 2,
+		"peers": [
+			1060,
+			1061,
+			1062
 		],
 		"variants": [],
 		"text": "Creating Digital Collections with Minimal Infrastructure: Hands On with CollectionBuilder for Teaching and Exhibits static web, digital collections, GitHub Pages, metadata undefined CollectionBuilder: Using Static Web Technologies to Create Digital Collections and Teach DH Principles static web, Jekyll, digital collections, digital scholarship undefined ",
 		"id": 1061
 	},
 	{
-		"name": "Evan Williamson",
+		"name": "Devin Becker",
 		"docs": 2,
 		"peers": [
+			1060,
 			1061,
-			1062,
-			1063
+			1062
 		],
 		"variants": [],
 		"text": "Creating Digital Collections with Minimal Infrastructure: Hands On with CollectionBuilder for Teaching and Exhibits static web, digital collections, GitHub Pages, metadata undefined CollectionBuilder: Using Static Web Technologies to Create Digital Collections and Teach DH Principles static web, Jekyll, digital collections, digital scholarship undefined ",
 		"id": 1062
 	},
 	{
-		"name": "Devin Becker",
-		"docs": 2,
-		"peers": [
-			1061,
-			1062,
-			1063
-		],
-		"variants": [],
-		"text": "Creating Digital Collections with Minimal Infrastructure: Hands On with CollectionBuilder for Teaching and Exhibits static web, digital collections, GitHub Pages, metadata undefined CollectionBuilder: Using Static Web Technologies to Create Digital Collections and Teach DH Principles static web, Jekyll, digital collections, digital scholarship undefined ",
-		"id": 1063
-	},
-	{
 		"name": "Julius Wilm",
 		"docs": 1,
 		"peers": [
-			1064
+			1063
 		],
 		"variants": [],
 		"text": "Free Land for Whom? Mapping Land Acquisition and Dispossession under the Homestead Act, 1863-1912  Homestead Act, Indian displacement, discrimination, GIS, real estate undefined ",
-		"id": 1064
+		"id": 1063
 	},
 	{
 		"name": "Florian Windhager",
 		"docs": 1,
 		"peers": [
+			1064,
 			1065,
-			1066,
-			1067
+			1066
+		],
+		"variants": [],
+		"text": "Reassembling Elephants: A Multi-Spatiotemporal Visualization Method for History and Humanities Data visualization, cultural collections, multiple views, information integration undefined ",
+		"id": 1064
+	},
+	{
+		"name": "Saminu Salisu",
+		"docs": 1,
+		"peers": [
+			1064,
+			1065,
+			1066
 		],
 		"variants": [],
 		"text": "Reassembling Elephants: A Multi-Spatiotemporal Visualization Method for History and Humanities Data visualization, cultural collections, multiple views, information integration undefined ",
 		"id": 1065
 	},
 	{
-		"name": "Saminu Salisu",
+		"name": "Eva Mayr",
 		"docs": 1,
 		"peers": [
+			1064,
 			1065,
-			1066,
-			1067
+			1066
 		],
 		"variants": [],
 		"text": "Reassembling Elephants: A Multi-Spatiotemporal Visualization Method for History and Humanities Data visualization, cultural collections, multiple views, information integration undefined ",
 		"id": 1066
-	},
-	{
-		"name": "Eva Mayr",
-		"docs": 1,
-		"peers": [
-			1065,
-			1066,
-			1067
-		],
-		"variants": [],
-		"text": "Reassembling Elephants: A Multi-Spatiotemporal Visualization Method for History and Humanities Data visualization, cultural collections, multiple views, information integration undefined ",
-		"id": 1067
 	},
 	{
 		"name": "Caroline Winter",
@@ -15150,12 +15140,12 @@
 		"peers": [
 			39,
 			40,
-			1068,
-			1069
+			1067,
+			1068
 		],
 		"variants": [],
 		"text": "The Open Knowledge Program: Creating Space for Digital, Public Scholarship open scholarship, open knowledge, social knowledge creation, digital humanities, public humanities undefined ",
-		"id": 1068
+		"id": 1067
 	},
 	{
 		"name": "Randa El Khatib",
@@ -15163,12 +15153,12 @@
 		"peers": [
 			39,
 			40,
-			1068,
-			1069
+			1067,
+			1068
 		],
 		"variants": [],
 		"text": "The Open Knowledge Program: Creating Space for Digital, Public Scholarship open scholarship, open knowledge, social knowledge creation, digital humanities, public humanities undefined ",
-		"id": 1069
+		"id": 1068
 	},
 	{
 		"name": "Hendrik Schmeer",
@@ -15177,13 +15167,13 @@
 			69,
 			402,
 			407,
-			1059,
-			1070,
-			1071
+			1058,
+			1069,
+			1070
 		],
 		"variants": [],
 		"text": "DH Teaching Activities as a Resource for Research: Accessing the DH Course Registry Data via an API API, DH teaching, data access, data publishing undefined ",
-		"id": 1070
+		"id": 1069
 	},
 	{
 		"name": "Franciska de Jong",
@@ -15192,23 +15182,23 @@
 			69,
 			402,
 			407,
-			1059,
-			1070,
-			1071
+			1058,
+			1069,
+			1070
 		],
 		"variants": [],
 		"text": "DH Teaching Activities as a Resource for Research: Accessing the DH Course Registry Data via an API API, DH teaching, data access, data publishing undefined ",
-		"id": 1071
+		"id": 1070
 	},
 	{
 		"name": "Mark Wolff",
 		"docs": 1,
 		"peers": [
-			1072
+			1071
 		],
 		"variants": [],
 		"text": "Computation and Rhetorical Invention: Finding Things To Say With word2vec rhetoric, invention, word2vec, machine learning undefined ",
-		"id": 1072
+		"id": 1071
 	},
 	{
 		"name": "Elisabeth Burr",
@@ -15220,16 +15210,16 @@
 			357,
 			524,
 			812,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
-		"id": 1073
+		"id": 1072
 	},
 	{
 		"name": "Matthew Gold",
@@ -15241,16 +15231,16 @@
 			357,
 			524,
 			812,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
-		"id": 1074
+		"id": 1073
 	},
 	{
 		"name": "Leif Isaksen",
@@ -15262,16 +15252,16 @@
 			357,
 			524,
 			812,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
-		"id": 1075
+		"id": 1074
 	},
 	{
 		"name": "Ashley Sanders Garcia",
@@ -15283,202 +15273,202 @@
 			357,
 			524,
 			812,
-			926,
-			953,
+			925,
+			952,
+			1072,
 			1073,
 			1074,
-			1075,
-			1076
+			1075
 		],
 		"variants": [],
 		"text": "Demystifying ADHO, the Alliance of Digital Humanities Organizations ADHO, DH organizations, infrastructure undefined ",
-		"id": 1076
+		"id": 1075
 	},
 	{
 		"name": "Lu Xiao",
 		"docs": 1,
 		"peers": [
+			1076,
 			1077,
 			1078,
-			1079,
-			1080
+			1079
+		],
+		"variants": [],
+		"text": " Computational Analysis of Emotions and Topics in Survivor Interviews about Nanking Massacre emotion analysis, topic analysis, Nanking Massacre undefined ",
+		"id": 1076
+	},
+	{
+		"name": "Jianyi Liu",
+		"docs": 1,
+		"peers": [
+			1076,
+			1077,
+			1078,
+			1079
 		],
 		"variants": [],
 		"text": " Computational Analysis of Emotions and Topics in Survivor Interviews about Nanking Massacre emotion analysis, topic analysis, Nanking Massacre undefined ",
 		"id": 1077
 	},
 	{
-		"name": "Jianyi Liu",
+		"name": "Wenchao Zhai",
 		"docs": 1,
 		"peers": [
+			1076,
 			1077,
 			1078,
-			1079,
-			1080
+			1079
 		],
 		"variants": [],
 		"text": " Computational Analysis of Emotions and Topics in Survivor Interviews about Nanking Massacre emotion analysis, topic analysis, Nanking Massacre undefined ",
 		"id": 1078
 	},
 	{
-		"name": "Wenchao Zhai",
+		"name": "Liangqin Jiang",
 		"docs": 1,
 		"peers": [
+			1076,
 			1077,
 			1078,
-			1079,
-			1080
+			1079
 		],
 		"variants": [],
 		"text": " Computational Analysis of Emotions and Topics in Survivor Interviews about Nanking Massacre emotion analysis, topic analysis, Nanking Massacre undefined ",
 		"id": 1079
 	},
 	{
-		"name": "Liangqin Jiang",
-		"docs": 1,
-		"peers": [
-			1077,
-			1078,
-			1079,
-			1080
-		],
-		"variants": [],
-		"text": " Computational Analysis of Emotions and Topics in Survivor Interviews about Nanking Massacre emotion analysis, topic analysis, Nanking Massacre undefined ",
-		"id": 1080
-	},
-	{
 		"name": "Taizo Yamada",
 		"docs": 1,
 		"peers": [
-			1081,
-			1082
+			1080,
+			1081
+		],
+		"variants": [],
+		"text": "A Flow for Digitizing Japanese Historical Materials and their Long-Term Use Digitalization, Japanese History, Digital Preservation, OAIS undefined ",
+		"id": 1080
+	},
+	{
+		"name": "Satoshi Inoue",
+		"docs": 1,
+		"peers": [
+			1080,
+			1081
 		],
 		"variants": [],
 		"text": "A Flow for Digitizing Japanese Historical Materials and their Long-Term Use Digitalization, Japanese History, Digital Preservation, OAIS undefined ",
 		"id": 1081
 	},
 	{
-		"name": "Satoshi Inoue",
-		"docs": 1,
-		"peers": [
-			1081,
-			1082
-		],
-		"variants": [],
-		"text": "A Flow for Digitizing Japanese Historical Materials and their Long-Term Use Digitalization, Japanese History, Digital Preservation, OAIS undefined ",
-		"id": 1082
-	},
-	{
 		"name": "Gregory Yauney",
 		"docs": 1,
 		"peers": [
 			901,
-			1083
+			1082
 		],
 		"variants": [],
 		"text": " Network Analysis Finds Shifts in the History of Modern Architecture networks, architecture, history undefined ",
-		"id": 1083
+		"id": 1082
 	},
 	{
 		"name": "Sean A. Yeager",
 		"docs": 1,
 		"peers": [
-			1084
+			1083
 		],
 		"variants": [],
 		"text": "Close-Reading the Endnotes for Word-Frequency Signposts & Polyvocal Citations feminism, citations, bibliography, word-count, intersectional undefined ",
-		"id": 1084
+		"id": 1083
 	},
 	{
 		"name": "Calvin Yeh",
 		"docs": 1,
 		"peers": [
 			612,
-			1052,
-			1085
+			1051,
+			1084
 		],
 		"variants": [],
 		"text": "Information extraction across textual corpora: semi-automatic text-tagging workflow with Chinese local gazetteers text-tagging, information extraction, local gazetteers, Chinese history undefined ",
-		"id": 1085
+		"id": 1084
 	},
 	{
 		"name": "Guangwei Zhang",
 		"docs": 1,
 		"peers": [
-			1086
+			1085
 		],
 		"variants": [],
 		"text": "Deep Learning for Recognizing Chinese Historical Documents OCR, deep learning, pipeline undefined ",
-		"id": 1086
+		"id": 1085
 	},
 	{
 		"name": "Mariana Ziku",
 		"docs": 1,
 		"peers": [
+			1086,
 			1087,
 			1088,
 			1089,
-			1090,
-			1091
+			1090
+		],
+		"variants": [],
+		"text": "MAZI means together: An open-source “minimal computing” local network infrastructure used for cultural event organisation, fieldwork research and community-based curation minimal computing, community networks, local wireless network, digital curation undefined ",
+		"id": 1086
+	},
+	{
+		"name": "Elli Leventaki",
+		"docs": 1,
+		"peers": [
+			1086,
+			1087,
+			1088,
+			1089,
+			1090
 		],
 		"variants": [],
 		"text": "MAZI means together: An open-source “minimal computing” local network infrastructure used for cultural event organisation, fieldwork research and community-based curation minimal computing, community networks, local wireless network, digital curation undefined ",
 		"id": 1087
 	},
 	{
-		"name": "Elli Leventaki",
+		"name": "Alexa Brailas",
 		"docs": 1,
 		"peers": [
+			1086,
 			1087,
 			1088,
 			1089,
-			1090,
-			1091
+			1090
 		],
 		"variants": [],
 		"text": "MAZI means together: An open-source “minimal computing” local network infrastructure used for cultural event organisation, fieldwork research and community-based curation minimal computing, community networks, local wireless network, digital curation undefined ",
 		"id": 1088
 	},
 	{
-		"name": "Alexa Brailas",
+		"name": "Stavroula Maglavera",
 		"docs": 1,
 		"peers": [
+			1086,
 			1087,
 			1088,
 			1089,
-			1090,
-			1091
+			1090
 		],
 		"variants": [],
 		"text": "MAZI means together: An open-source “minimal computing” local network infrastructure used for cultural event organisation, fieldwork research and community-based curation minimal computing, community networks, local wireless network, digital curation undefined ",
 		"id": 1089
 	},
 	{
-		"name": "Stavroula Maglavera",
+		"name": "John Mavridis",
 		"docs": 1,
 		"peers": [
+			1086,
 			1087,
 			1088,
 			1089,
-			1090,
-			1091
+			1090
 		],
 		"variants": [],
 		"text": "MAZI means together: An open-source “minimal computing” local network infrastructure used for cultural event organisation, fieldwork research and community-based curation minimal computing, community networks, local wireless network, digital curation undefined ",
 		"id": 1090
-	},
-	{
-		"name": "John Mavridis",
-		"docs": 1,
-		"peers": [
-			1087,
-			1088,
-			1089,
-			1090,
-			1091
-		],
-		"variants": [],
-		"text": "MAZI means together: An open-source “minimal computing” local network infrastructure used for cultural event organisation, fieldwork research and community-based curation minimal computing, community networks, local wireless network, digital curation undefined ",
-		"id": 1091
 	}
 ]
