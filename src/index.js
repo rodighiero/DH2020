@@ -73,6 +73,4 @@ Promise.all([
         s.pixi.resize()
     }
 
-    // }
-
 })
