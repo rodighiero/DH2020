@@ -38,7 +38,7 @@
     "d3": "^5.16.0",
     "fps": "0.0.3",
     "normalize.css": "^8.0.1",
-    "pixi-viewport": "^4.13.1",
+    "pixi-viewport": "^4.13.2",
     "pixi.js": "5.3.2"
   }
 }

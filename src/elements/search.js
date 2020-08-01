@@ -4,9 +4,9 @@ import autoComplete from '@tarekraafat/autocomplete.js'
 export default () => {
 
     // Listner
-    document.querySelector("#autoComplete").addEventListener("autoComplete", event => {
-        console.log(event)
-    })
+    // document.querySelector("#autoComplete").addEventListener("autoComplete", event => {
+    //     console.log(event)
+    // })
 
     const placeholder = 'Search'
 
@@ -14,21 +14,16 @@ export default () => {
 
     const autoCompletejs = new autoComplete({
         data: {
-            src: async () => {
-                return s.nodes.reduce((array, { name, x, y }) => {
-
-                    array.push({
-                        name: name,
-                        x: x,
-                        y: y
-                    })
-
-                    return array
-                }, [])
-            },
+            cache: false,
             key: ["name"],
-            // key: ["food", "cities", "animals"],
-            cache: false
+            src: s.nodes.reduce((array, { name, x, y }) => {
+                array.push({
+                    name: name,
+                    x: x,
+                    y: y
+                })
+                return array
+            }, []),
         },
         sort: (a, b) => {
             if (a.match < b.match) return -1
@@ -67,9 +62,6 @@ export default () => {
         },
         onSelection: feedback => {
 
-            console.log(feedback)
-
-            const key = feedback.selection.key
             const node = feedback.selection.value
             const { x, y, name } = node
 
@@ -109,7 +101,6 @@ export default () => {
                 zoomIn()
             else
                 zoomOutIn()
-
 
         }
     })
