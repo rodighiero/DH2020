@@ -85,9 +85,14 @@ export default () => {
                 ease: 'easeInOutSine',
             })
 
+            const center = {
+                x: s.pixi.center.x,
+                y: s.pixi.center.y
+            }
+
             const zoomOutIn = () => s.pixi.animate({
                 scale: zoomMin,
-                position: new PIXI.Point(s.pixi.center.x + x / 2, s.pixi.center.y + y / 2),
+                position: new PIXI.Point((x + center.x) / 2, (y + center.y) / 2),
                 time: 2000,
                 ease: 'easeInOutSine',
                 callbackOnComplete: () => {
