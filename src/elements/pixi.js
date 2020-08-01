@@ -34,7 +34,7 @@ export default (arialXML) => {
 
     s.pixi = viewport
     
-    // Activate plugins
+    // Activate
 
     const zoomMin = .3
     const zoomMax = 5
@@ -49,21 +49,19 @@ export default (arialXML) => {
 
     // Transparency on zoom
 
-    const keywords = d3.scaleLinear()
-        .domain([zoomMin, 2]).range([1, 0])
-
-    const wordcloud = d3.scaleLinear()
-        .domain([zoomMin, 2]).range([0, 1])
-
-    const contours = d3.scaleLinear()
-        .domain([zoomMin, 2]).range([1, 0])
+    const links = 1
+    const contours = d3.scaleLinear().domain([zoomMin, 2]).range([1, 0])
+    const couples = d3.scaleLinear().domain([zoomMin, 2]).range([1, 0])
+    const nodes = 1
+    const triplets = d3.scaleLinear().domain([zoomMin, 2]).range([0, 1])
 
     viewport.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
-        // 0. Links and 3. Nodes
+        e.viewport.children[0].alpha = links
         e.viewport.children[1].alpha = contours(scale)
-        e.viewport.children[2].alpha = keywords(scale)
-        e.viewport.children[4].alpha = wordcloud(scale)
+        e.viewport.children[2].alpha = couples(scale)
+        e.viewport.children[3].alpha = nodes
+        e.viewport.children[4].alpha = triplets(scale)
     })
 
     // Prevent pinch gesture in Chrome

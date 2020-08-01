@@ -22,7 +22,7 @@ export default () => {
                         x: x,
                         y: y
                     })
-            
+
                     return array
                 }, [])
             },
@@ -75,66 +75,57 @@ export default () => {
 
             document.querySelector("#autoComplete").value = name
 
-            const scale = 5
-
-            s.pixi.setTransform(
-                window.innerWidth / 2 - x * scale,
-                (window.innerHeight) / 2 - y * scale,
-                scale, scale)
-
             const zoomMin = .3
             const zoomMax = 5
-            const wordcloud = d3.scaleLinear().domain([zoomMin, zoomMax]).range([0, 1])
-            s.pixi.children[1].alpha = 0
-            s.pixi.children[2].alpha = 0
-            s.pixi.children[4].alpha = wordcloud(scale)
 
+            const zoomIn = () => s.pixi.animate({
+                scale: zoomMax,
+                position: new PIXI.Point(x, y),
+                time: 2000,
+                ease: 'easeInOutSine',
+                callbackOnComplete: () => {
 
-            // const duration = 3000
+                    s.pixi.children[1].alpha = 0
+                    s.pixi.children[2].alpha = 0
+                    s.pixi.children[4].alpha = 1
 
-            // const zoomin = () => {
-            //     s.pixi.snap(x, y, {
-            //         time: duration,
-            //         ease: 'easeOutSine',
-            //         removeOnComplete: true,
-            //     })
-            //     s.pixi.snapZoom({
-            //         width: 100,
-            //         time: duration,
-            //         ease: 'easeInSine',
-            //         removeOnComplete: true,
-            //         noMove: true,
-            //     })
-            // }
+                }
+            })
 
-            // const zoomout = () => {
-            //     s.pixi.snap(x, y, {
-            //         time: duration * 2,
-            //         ease: 'easeOutSine',
-            //         removeOnComplete: true,
-            //     })
-            //     s.pixi.snapZoom({
-            //         width: 1000,
-            //         time: duration,
-            //         ease: 'easeOutSine',
-            //         removeOnComplete: true,
-            //         noMove: true,
-            //     })
-            //     setTimeout(() => {
-            //         s.pixi.snapZoom({
-            //             width: 100,
-            //             time: duration,
-            //             ease: 'easeInSine',
-            //             removeOnComplete: true,
-            //             noMove: true,
-            //         })
-            //     }, duration)
-            // }
+            const zoomOutIn = () => s.pixi.animate({
+                scale: zoomMin,
+                position: new PIXI.Point(s.pixi.center.x + x / 2, s.pixi.center.y + y / 2),
+                time: 2000,
+                ease: 'easeInOutSine',
+                callbackOnComplete: () => {
 
-            // Click
+                    s.pixi.children[1].alpha = 1
+                    s.pixi.children[2].alpha = 1
+                    s.pixi.children[4].alpha = 0
 
-            // if (s.pixi.scale.x < 1) zoomin()
-            // else zoomout()
+                    // Zoom In
+                    s.pixi.animate({
+                        scale: zoomMax,
+                        position: new PIXI.Point(x, y),
+                        time: 2000,
+                        ease: 'easeInOutSine',
+                        callbackOnComplete: () => {
+
+                            s.pixi.children[1].alpha = 0
+                            s.pixi.children[2].alpha = 0
+                            s.pixi.children[4].alpha = 1
+
+                        }
+                    })
+
+                }
+            })
+
+            if (s.pixi.scale.x < 1)
+                zoomIn()
+            else
+                zoomOutIn()
+
 
         }
     })
