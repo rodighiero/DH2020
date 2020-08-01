@@ -83,13 +83,6 @@ export default () => {
                 position: new PIXI.Point(x, y),
                 time: 2000,
                 ease: 'easeInOutSine',
-                callbackOnComplete: () => {
-
-                    s.pixi.children[1].alpha = 0
-                    s.pixi.children[2].alpha = 0
-                    s.pixi.children[4].alpha = 1
-
-                }
             })
 
             const zoomOutIn = () => s.pixi.animate({
@@ -98,26 +91,12 @@ export default () => {
                 time: 2000,
                 ease: 'easeInOutSine',
                 callbackOnComplete: () => {
-
-                    s.pixi.children[1].alpha = 1
-                    s.pixi.children[2].alpha = 1
-                    s.pixi.children[4].alpha = 0
-
-                    // Zoom In
                     s.pixi.animate({
                         scale: zoomMax,
                         position: new PIXI.Point(x, y),
                         time: 2000,
                         ease: 'easeInOutSine',
-                        callbackOnComplete: () => {
-
-                            s.pixi.children[1].alpha = 0
-                            s.pixi.children[2].alpha = 0
-                            s.pixi.children[4].alpha = 1
-
-                        }
                     })
-
                 }
             })
 
