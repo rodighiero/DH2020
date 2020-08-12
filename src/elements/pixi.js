@@ -65,9 +65,9 @@ export default (arialXML) => {
 
     s.pixi.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
+        e.viewport.children[1].alpha = zoomOut(scale)
         e.viewport.children[2].alpha = zoomOut(scale)
-        e.viewport.children[3].alpha = zoomOut(scale)
-        e.viewport.children[5].alpha = zoomIn(scale)
+        e.viewport.children[4].alpha = zoomIn(scale)
     })
 
     // Prevent pinch gesture in Chrome
