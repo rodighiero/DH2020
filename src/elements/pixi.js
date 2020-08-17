@@ -19,7 +19,7 @@ export default (arialXML) => {
         autoResize: true,
         resizeTo: window,
     })
-    document.body.append(app.view)
+    document.body.prepend(app.view)
 
     // Font
 
@@ -45,7 +45,7 @@ export default (arialXML) => {
     const scaleY = window.innerHeight / height
     const scale = scaleX < scaleY ? scaleX : scaleY
     const zoomMin = scale
-    const zoomMax = 3
+    const zoomMax = 4
 
     // Set vieport
 
