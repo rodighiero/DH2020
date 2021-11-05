@@ -24,7 +24,7 @@ export default (pairs) => {
                 lemma,
                 {
                     fontName: 'Lato',
-                    fontSize: '.7',
+                    fontSize: '.5',
                     tint: 0xFFFFFF,
                     align: 'center',
                 })

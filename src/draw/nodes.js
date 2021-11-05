@@ -49,13 +49,13 @@ export default (data) => {
             `${nA}\n${nB}`,
             {
                 fontName: 'Lato',
-                fontSize: '9',
+                fontSize: '5',
                 // fill: color.off,
                 align: 'center',
             })
 
         node.text.scale.set(scale)
-        node.text.position.set(node[0] - node.text.width / 2, node[1] - 2.5)
+        node.text.position.set(node[0] - node.text.width / 2, node[1] - 1)
 
         stage.addChild(node.text)
 

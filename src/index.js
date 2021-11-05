@@ -142,7 +142,7 @@ Promise.all([
     // keywords_distant()
     drawClusters(data, clusters)
     fps()
-    search(data)
+    // search(data)
 
     s.viewport.fit()
     s.viewport.moveCenter(window.innerWidth / 2, window.innerHeight / 2)
