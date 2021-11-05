@@ -1,0 +1,132 @@
+/******************************************************************************
+     * Basic elements
+******************************************************************************/
+
+* {
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	user-select: none;
+	-khtml-user-select: none;
+	-o-user-select: none
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+	color: #c7d1c2;
+	overflow: hidden;
+	margin: 0;
+}
+
+canvas {
+	top: 0;
+	left: 0;
+	display: block;
+	position: absolute;
+}
+
+a {
+	color: #c7d1c2;
+}
+
+/******************************************************************************
+	 * Containers		
+******************************************************************************/
+
+#focus, #title, #search, #warning, #award {
+	background-color: rgba(0, 0, 0, .7);
+	position: absolute;
+	border: none;
+	padding: 10px;
+}
+
+#focus {
+	left: 0;
+	top: 10;
+}
+
+#award {
+	left: 0;
+	bottom: 10;
+}
+
+#award img {
+	width: 134px;
+}
+
+#title {
+	right: 0;
+	bottom: 10;
+	/* width: 240px; */
+}
+
+#search {
+	right: 0;
+	top: 10;
+	width: 240px;
+}
+
+#warning {
+	left: 0;
+	bottom: 0;
+}
+
+input {
+	font-size: 100%;
+	margin: 5px 0;
+	font-weight: normal;
+	background-color: #333;
+	border: 0;
+	color: #999;
+}
+
+input, input:before, input:after {
+	-webkit-user-select: initial;
+	-khtml-user-select: initial;
+	-moz-user-select: initial;
+	-ms-user-select: initial;
+	user-select: initial;
+}
+
+li {
+	font-size: 70%;
+	margin: 5px 0;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 100%;
+	margin: 10px 0;
+}
+
+h2 {
+	font-size: 70%;
+	margin: 10px 0;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 60%;
+	margin: 5px 0;
+}
+
+p {
+	font-size: 45%;
+	margin: 5px 0;
+	line-height: .9;
+}
+
+.block {
+	background-color: #c7d1c2;
+	height: 3px;
+	width: 1px;
+	display: inline-block;
+}
+
+.inverted {
+	background-color: #c7d1c2;
+	color: black;
+	white-space: nowrap;
+}
